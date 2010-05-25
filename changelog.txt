@@ -1,5 +1,6 @@
 [B]Version 1.2.0[/B] (not final yet)
 
+- Added : watched Ticks to lists in video file and library
 - Fixed : Music library Artist fanart view didn't show description any more
 - Added : support for new XBMC Subtitles script (needs version 1.6.3 of the script or higher to work right)
 - Added : Skin Setting to turn off Panel Fanart (on by default)

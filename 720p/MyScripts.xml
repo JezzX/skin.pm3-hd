@@ -9,6 +9,7 @@
 			<include>CommonRootView</include>
 			<include>CommonListView</include>
 			<include>ThumbnailView</include>
+			<include>AddonInfoView</include>
 			<include>AllViewCommonPageControls</include>
 			<include>CommonFileCount</include>
 			<include>ScrollOffsetLabel</include>
