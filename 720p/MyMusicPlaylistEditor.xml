@@ -400,5 +400,6 @@
 			<label>$LOCALIZE[9] - $LOCALIZE[10503]</label>
 		</control>
 		<include>WindowTitleButtons</include>
+		<include>BehindDialogFadeOut</include>
 	</controls>
 </window>

@@ -613,5 +613,6 @@
 			<visible>system.getbool(lookandfeel.enablerssfeeds)</visible>
 			<include>Window_OpenClose_Animation</include>
 		</control>
+		<include>BehindDialogFadeOut</include>
 	</controls>	
 </window>

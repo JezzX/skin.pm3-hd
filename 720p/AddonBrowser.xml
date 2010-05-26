@@ -107,5 +107,6 @@
 			<include>Window_OpenClose_Animation</include>
 		</control>
 		<include>WindowTitleButtonsMedia</include>
+		<include>BehindDialogFadeOut</include>
 	</controls>
 </window>

@@ -268,6 +268,7 @@
 			<label>$LOCALIZE[9] - $LOCALIZE[20314]$INFO[Container.PluginName, - ]</label>
 		</control>
 		<include>WindowTitleButtonsMedia</include>
+		<include>BehindDialogFadeOut</include>
 
 <!-- Test code for the flagging Can stay until all codecs done
 

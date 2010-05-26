@@ -181,5 +181,6 @@
 			<label>$LOCALIZE[9] - $LOCALIZE[10516]$INFO[Container.PluginName, - ]</label>
 		</control>
 		<include>WindowTitleButtonsMedia</include>
+		<include>BehindDialogFadeOut</include>
 	</controls>
 </window>
