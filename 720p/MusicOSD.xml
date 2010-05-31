@@ -257,25 +257,13 @@
 			<usealttexture>Window.IsActive(AddonSettings)</usealttexture>
 			<alttexturefocus>osd_button_vizsettingsSELNF.png</alttexturefocus>
 			<alttexturenofocus>-</alttexturenofocus>
-			<onclick>Addon.Default.OpenSettings(visualization)</onclick>
+			<onclick>Addon.Default.OpenSettings(xbmc.player.musicviz)</onclick>
 			<label>-</label>
 			<font>-</font>
 			<onleft>210</onleft>
 			<onright>215</onright>
 			<onup>921</onup>
 			<ondown>500</ondown>
-		</control>
-		<control type="selectbutton" id="503">
-			<posx>460</posx>
-			<posy>15</posy>
-			<description>Visualisation Select Button</description>
-			<texturebg border="5">Barground2.png</texturebg>
-			<onleft>503</onleft>
-			<onright>503</onright>
-			<onup>500</onup>
-			<ondown>500</ondown>
-			<visible>!Skin.HasSetting(LyricScript_Enable)</visible>
-			<include>VisibleFadeEffect</include>
 		</control>
 	</controls>
 </window>
