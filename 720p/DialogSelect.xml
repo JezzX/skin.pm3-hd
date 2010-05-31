@@ -4,6 +4,7 @@
 		<system>1</system>
 		<posx>335</posx>
 		<posy>35</posy>
+		<origin x="500" y="35">Window.IsVisible(Visualization)</origin>
 	</coordinates>
 	<include>dialogeffect</include>
 	<controls>
