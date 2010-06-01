@@ -14,6 +14,7 @@
 			<width>950</width>
 			<height>660</height>
 			<texture border="40">DialogBack.png</texture>
+			<animation effect="fade" start="90" end="90" time="0" condition="Window.IsVisible(Visualisation)">Conditional</animation>
 		</control>
 		<control type="image">
 			<description>background image</description>
