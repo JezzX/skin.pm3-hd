@@ -455,7 +455,7 @@
 					</item>
 					<item id="4">
 						<label>0</label>
-						<onclick>ActivateWindow(Programs)</onclick>
+						<onclick>ActivateWindow(Programs,Addons,return)</onclick>
 						<icon>special://skin/backgrounds/programs.jpg</icon>
 						<thumb>$INFO[Skin.String(Home_Custom_Back_Programs_Folder)]</thumb>
 						<visible>!Skin.HasSetting(homepageHideProgramButton)</visible>
@@ -466,13 +466,6 @@
 						<icon>special://skin/backgrounds/weather.jpg</icon>
 						<thumb>$INFO[Skin.String(Home_Custom_Back_Weather_Folder)]</thumb>
 						<visible>!Skin.HasSetting(homepageHideWeatherButton)</visible>
-					</item>
-					<item id="6">
-						<label>247</label>
-						<onclick>ActivateWindow(Scripts)</onclick>
-						<icon>special://skin/backgrounds/scripts.jpg</icon>
-						<thumb>$INFO[Skin.String(Home_Custom_Back_Scripts_Folder)]</thumb>
-						<visible>!Skin.HasSetting(homepageHideScriptButton)</visible>
 					</item>
 					<item id="7">
 						<label>5</label>
