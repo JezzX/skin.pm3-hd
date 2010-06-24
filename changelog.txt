@@ -1,3 +1,7 @@
+[B]Version 1.2.2[/B]
+
+- More Changes to maintain XBMC SVN Compatability
+
 [B]Version 1.2.1[/B]
 
 - Various Minor fixes for current XBMC SVN Compatability
