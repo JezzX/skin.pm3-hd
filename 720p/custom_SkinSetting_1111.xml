@@ -1074,7 +1074,7 @@
 					<onfocus>Skin.SetString(SkinSettings,1)</onfocus>
 					<onleft>9001</onleft>
 					<onright>9001</onright>
-					<onup>23</onup>
+					<onup>611</onup>
 					<ondown>21</ondown>
 				</control>
 				<control type="button" id="21">
@@ -1114,7 +1114,24 @@
 					<onleft>9004</onleft>
 					<onright>9004</onright>
 					<onup>22</onup>
+					<ondown>610</ondown>
+				</control>
+				<control type="button" id="610">
+					<description>Fake Button to fix Player Controls Navigation</description>
+					<onup>23</onup>
+					<ondown>603</ondown>
+					<visible>false</visible>
+				</control>
+				<control type="group">
+					<posx>0</posx>
+					<posy>180</posy>
+					<include>CommonNowPlaying_Controls</include>
+				</control>
+				<control type="button" id="611">
+					<description>Fake Button to fix Player Controls Navigation</description>
+					<onup>607</onup>
 					<ondown>20</ondown>
+					<visible>false</visible>
 				</control>
 			</control>
 		</control>
