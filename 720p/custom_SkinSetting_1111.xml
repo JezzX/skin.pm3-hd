@@ -621,15 +621,8 @@
 						<description>Single Image button</description>
 						<posx>5</posx>
 						<posy>0</posy>
-						<width>180</width>
-						<height>35</height>
+						<include>ButtonSetBackgroundCommonValues</include>
 						<label>31113</label>
-						<font>font12</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
-						<align>center</align>
-						<texturenofocus border="3">button-nofocus.png</texturenofocus>
-						<texturefocus border="3">button-focus2.png</texturefocus>
 						<onclick>Skin.SetImage(Home_Custom_Back_Video_Folder)</onclick>
 						<onleft>9003</onleft>
 						<onright>301</onright>
@@ -640,15 +633,8 @@
 						<description>Multi Image button</description>
 						<posx>190</posx>
 						<posy>0</posy>
-						<width>180</width>
-						<height>35</height>
+						<include>ButtonSetBackgroundCommonValues</include>
 						<label>31114</label>
-						<font>font12</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
-						<align>center</align>
-						<texturenofocus border="3">button-nofocus.png</texturenofocus>
-						<texturefocus border="3">button-focus2.png</texturefocus>
 						<onclick>Skin.SetPath(Home_Custom_Back_Video_Folder)</onclick>
 						<onleft>300</onleft>
 						<onright>302</onright>
@@ -659,15 +645,8 @@
 						<description>Default Image button</description>
 						<posx>375</posx>
 						<posy>0</posy>
-						<width>180</width>
-						<height>35</height>
+						<include>ButtonSetBackgroundCommonValues</include>
 						<label>571</label>
-						<font>font12</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
-						<align>center</align>
-						<texturenofocus border="3">button-nofocus.png</texturenofocus>
-						<texturefocus border="3">button-focus2.png</texturefocus>
 						<onclick>Skin.Reset(Home_Custom_Back_Video_Folder)</onclick>
 						<onleft>301</onleft>
 						<onright>9000</onright>
@@ -683,15 +662,8 @@
 						<description>Single Image button</description>
 						<posx>5</posx>
 						<posy>0</posy>
-						<width>180</width>
-						<height>35</height>
+						<include>ButtonSetBackgroundCommonValues</include>
 						<label>31113</label>
-						<font>font12</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
-						<align>center</align>
-						<texturenofocus border="3">button-nofocus.png</texturenofocus>
-						<texturefocus border="3">button-focus2.png</texturefocus>
 						<onclick>Skin.SetImage(Home_Custom_Back_Movie_Folder)</onclick>
 						<onleft>9003</onleft>
 						<onright>301</onright>
@@ -702,15 +674,8 @@
 						<description>Multi Image button</description>
 						<posx>190</posx>
 						<posy>0</posy>
-						<width>180</width>
-						<height>35</height>
+						<include>ButtonSetBackgroundCommonValues</include>
 						<label>31114</label>
-						<font>font12</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
-						<align>center</align>
-						<texturenofocus border="3">button-nofocus.png</texturenofocus>
-						<texturefocus border="3">button-focus2.png</texturefocus>
 						<onclick>Skin.SetPath(Home_Custom_Back_Movie_Folder)</onclick>
 						<onleft>300</onleft>
 						<onright>302</onright>
@@ -721,15 +686,8 @@
 						<description>Default Image button</description>
 						<posx>375</posx>
 						<posy>0</posy>
-						<width>180</width>
-						<height>35</height>
+						<include>ButtonSetBackgroundCommonValues</include>
 						<label>571</label>
-						<font>font12</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
-						<align>center</align>
-						<texturenofocus border="3">button-nofocus.png</texturenofocus>
-						<texturefocus border="3">button-focus2.png</texturefocus>
 						<onclick>Skin.Reset(Home_Custom_Back_Movie_Folder)</onclick>
 						<onleft>301</onleft>
 						<onright>9000</onright>
@@ -745,15 +703,8 @@
 						<description>Single Image button</description>
 						<posx>5</posx>
 						<posy>0</posy>
-						<width>180</width>
-						<height>35</height>
+						<include>ButtonSetBackgroundCommonValues</include>
 						<label>31113</label>
-						<font>font12</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
-						<align>center</align>
-						<texturenofocus border="3">button-nofocus.png</texturenofocus>
-						<texturefocus border="3">button-focus2.png</texturefocus>
 						<onclick>Skin.SetImage(Home_Custom_Back_TVShow_Folder)</onclick>
 						<onleft>9003</onleft>
 						<onright>301</onright>
@@ -764,15 +715,8 @@
 						<description>Multi Image button</description>
 						<posx>190</posx>
 						<posy>0</posy>
-						<width>180</width>
-						<height>35</height>
+						<include>ButtonSetBackgroundCommonValues</include>
 						<label>31114</label>
-						<font>font12</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
-						<align>center</align>
-						<texturenofocus border="3">button-nofocus.png</texturenofocus>
-						<texturefocus border="3">button-focus2.png</texturefocus>
 						<onclick>Skin.SetPath(Home_Custom_Back_TVShow_Folder)</onclick>
 						<onleft>300</onleft>
 						<onright>302</onright>
@@ -783,15 +727,8 @@
 						<description>Default Image button</description>
 						<posx>375</posx>
 						<posy>0</posy>
-						<width>180</width>
-						<height>35</height>
+						<include>ButtonSetBackgroundCommonValues</include>
 						<label>571</label>
-						<font>font12</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
-						<align>center</align>
-						<texturenofocus border="3">button-nofocus.png</texturenofocus>
-						<texturefocus border="3">button-focus2.png</texturefocus>
 						<onclick>Skin.Reset(Home_Custom_Back_TVShow_Folder)</onclick>
 						<onleft>301</onleft>
 						<onright>9000</onright>
@@ -807,15 +744,8 @@
 						<description>Single Image button</description>
 						<posx>5</posx>
 						<posy>0</posy>
-						<width>180</width>
-						<height>35</height>
+						<include>ButtonSetBackgroundCommonValues</include>
 						<label>31113</label>
-						<font>font12</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
-						<align>center</align>
-						<texturenofocus border="3">button-nofocus.png</texturenofocus>
-						<texturefocus border="3">button-focus2.png</texturefocus>
 						<onclick>Skin.SetImage(Home_Custom_Back_Music_Folder)</onclick>
 						<onleft>9003</onleft>
 						<onright>301</onright>
@@ -826,15 +756,8 @@
 						<description>Multi Image button</description>
 						<posx>190</posx>
 						<posy>0</posy>
-						<width>180</width>
-						<height>35</height>
+						<include>ButtonSetBackgroundCommonValues</include>
 						<label>31114</label>
-						<font>font12</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
-						<align>center</align>
-						<texturenofocus border="3">button-nofocus.png</texturenofocus>
-						<texturefocus border="3">button-focus2.png</texturefocus>
 						<onclick>Skin.SetPath(Home_Custom_Back_Music_Folder)</onclick>
 						<onleft>300</onleft>
 						<onright>302</onright>
@@ -845,15 +768,8 @@
 						<description>Default Image button</description>
 						<posx>375</posx>
 						<posy>0</posy>
-						<width>180</width>
-						<height>35</height>
+						<include>ButtonSetBackgroundCommonValues</include>
 						<label>571</label>
-						<font>font12</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
-						<align>center</align>
-						<texturenofocus border="3">button-nofocus.png</texturenofocus>
-						<texturefocus border="3">button-focus2.png</texturefocus>
 						<onclick>Skin.Reset(Home_Custom_Back_Music_Folder)</onclick>
 						<onleft>301</onleft>
 						<onright>9000</onright>
@@ -869,15 +785,8 @@
 						<description>Single Image button</description>
 						<posx>5</posx>
 						<posy>0</posy>
-						<width>180</width>
-						<height>35</height>
+						<include>ButtonSetBackgroundCommonValues</include>
 						<label>31113</label>
-						<font>font12</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
-						<align>center</align>
-						<texturenofocus border="3">button-nofocus.png</texturenofocus>
-						<texturefocus border="3">button-focus2.png</texturefocus>
 						<onclick>Skin.SetImage(Home_Custom_Back_Pictures_Folder)</onclick>
 						<onleft>9003</onleft>
 						<onright>301</onright>
@@ -888,15 +797,8 @@
 						<description>Multi Image button</description>
 						<posx>190</posx>
 						<posy>0</posy>
-						<width>180</width>
-						<height>35</height>
+						<include>ButtonSetBackgroundCommonValues</include>
 						<label>31114</label>
-						<font>font12</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
-						<align>center</align>
-						<texturenofocus border="3">button-nofocus.png</texturenofocus>
-						<texturefocus border="3">button-focus2.png</texturefocus>
 						<onclick>Skin.SetPath(Home_Custom_Back_Pictures_Folder)</onclick>
 						<onleft>300</onleft>
 						<onright>302</onright>
@@ -907,15 +809,8 @@
 						<description>Default Image button</description>
 						<posx>375</posx>
 						<posy>0</posy>
-						<width>180</width>
-						<height>35</height>
+						<include>ButtonSetBackgroundCommonValues</include>
 						<label>571</label>
-						<font>font12</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
-						<align>center</align>
-						<texturenofocus border="3">button-nofocus.png</texturenofocus>
-						<texturefocus border="3">button-focus2.png</texturefocus>
 						<onclick>Skin.Reset(Home_Custom_Back_Pictures_Folder)</onclick>
 						<onleft>301</onleft>
 						<onright>9000</onright>
@@ -931,15 +826,8 @@
 						<description>Single Image button</description>
 						<posx>5</posx>
 						<posy>0</posy>
-						<width>180</width>
-						<height>35</height>
+						<include>ButtonSetBackgroundCommonValues</include>
 						<label>31113</label>
-						<font>font12</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
-						<align>center</align>
-						<texturenofocus border="3">button-nofocus.png</texturenofocus>
-						<texturefocus border="3">button-focus2.png</texturefocus>
 						<onclick>Skin.SetImage(Home_Custom_Back_Programs_Folder)</onclick>
 						<onleft>9003</onleft>
 						<onright>301</onright>
@@ -950,15 +838,8 @@
 						<description>Multi Image button</description>
 						<posx>190</posx>
 						<posy>0</posy>
-						<width>180</width>
-						<height>35</height>
+						<include>ButtonSetBackgroundCommonValues</include>
 						<label>31114</label>
-						<font>font12</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
-						<align>center</align>
-						<texturenofocus border="3">button-nofocus.png</texturenofocus>
-						<texturefocus border="3">button-focus2.png</texturefocus>
 						<onclick>Skin.SetPath(Home_Custom_Back_Programs_Folder)</onclick>
 						<onleft>300</onleft>
 						<onright>302</onright>
@@ -969,15 +850,8 @@
 						<description>Default Image button</description>
 						<posx>375</posx>
 						<posy>0</posy>
-						<width>180</width>
-						<height>35</height>
+						<include>ButtonSetBackgroundCommonValues</include>
 						<label>571</label>
-						<font>font12</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
-						<align>center</align>
-						<texturenofocus border="3">button-nofocus.png</texturenofocus>
-						<texturefocus border="3">button-focus2.png</texturefocus>
 						<onclick>Skin.Reset(Home_Custom_Back_Programs_Folder)</onclick>
 						<onleft>301</onleft>
 						<onright>9000</onright>
@@ -993,15 +867,8 @@
 						<description>Single Image button</description>
 						<posx>5</posx>
 						<posy>0</posy>
-						<width>180</width>
-						<height>35</height>
+						<include>ButtonSetBackgroundCommonValues</include>
 						<label>31113</label>
-						<font>font12</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
-						<align>center</align>
-						<texturenofocus border="3">button-nofocus.png</texturenofocus>
-						<texturefocus border="3">button-focus2.png</texturefocus>
 						<onclick>Skin.SetImage(Home_Custom_Back_Weather_Folder)</onclick>
 						<onleft>9003</onleft>
 						<onright>301</onright>
@@ -1012,15 +879,8 @@
 						<description>Multi Image button</description>
 						<posx>190</posx>
 						<posy>0</posy>
-						<width>180</width>
-						<height>35</height>
+						<include>ButtonSetBackgroundCommonValues</include>
 						<label>31114</label>
-						<font>font12</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
-						<align>center</align>
-						<texturenofocus border="3">button-nofocus.png</texturenofocus>
-						<texturefocus border="3">button-focus2.png</texturefocus>
 						<onclick>Skin.SetPath(Home_Custom_Back_Weather_Folder)</onclick>
 						<onleft>300</onleft>
 						<onright>302</onright>
@@ -1031,15 +891,8 @@
 						<description>Default Image button</description>
 						<posx>375</posx>
 						<posy>0</posy>
-						<width>180</width>
-						<height>35</height>
+						<include>ButtonSetBackgroundCommonValues</include>
 						<label>571</label>
-						<font>font12</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
-						<align>center</align>
-						<texturenofocus border="3">button-nofocus.png</texturenofocus>
-						<texturefocus border="3">button-focus2.png</texturefocus>
 						<onclick>Skin.Reset(Home_Custom_Back_Weather_Folder)</onclick>
 						<onleft>301</onleft>
 						<onright>9000</onright>
@@ -1055,15 +908,8 @@
 						<description>Single Image button</description>
 						<posx>5</posx>
 						<posy>0</posy>
-						<width>180</width>
-						<height>35</height>
+						<include>ButtonSetBackgroundCommonValues</include>
 						<label>31113</label>
-						<font>font12</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
-						<align>center</align>
-						<texturenofocus border="3">button-nofocus.png</texturenofocus>
-						<texturefocus border="3">button-focus2.png</texturefocus>
 						<onclick>Skin.SetImage(Home_Custom_Back_Settings_Folder)</onclick>
 						<onleft>9003</onleft>
 						<onright>301</onright>
@@ -1074,15 +920,8 @@
 						<description>Multi Image button</description>
 						<posx>190</posx>
 						<posy>0</posy>
-						<width>180</width>
-						<height>35</height>
+						<include>ButtonSetBackgroundCommonValues</include>
 						<label>31114</label>
-						<font>font12</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
-						<align>center</align>
-						<texturenofocus border="3">button-nofocus.png</texturenofocus>
-						<texturefocus border="3">button-focus2.png</texturefocus>
 						<onclick>Skin.SetPath(Home_Custom_Back_Settings_Folder)</onclick>
 						<onleft>300</onleft>
 						<onright>302</onright>
@@ -1093,15 +932,8 @@
 						<description>Default Image button</description>
 						<posx>375</posx>
 						<posy>0</posy>
-						<width>180</width>
-						<height>35</height>
+						<include>ButtonSetBackgroundCommonValues</include>
 						<label>571</label>
-						<font>font12</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
-						<align>center</align>
-						<texturenofocus border="3">button-nofocus.png</texturenofocus>
-						<texturefocus border="3">button-focus2.png</texturefocus>
 						<onclick>Skin.Reset(Home_Custom_Back_Settings_Folder)</onclick>
 						<onleft>301</onleft>
 						<onright>9000</onright>
