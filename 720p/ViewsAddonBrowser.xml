@@ -129,7 +129,7 @@
 				<description>Rating txt</description>
 				<posx>0</posx>
 				<posy>330</posy>
-				<width>120</width>
+				<width>90</width>
 				<height>25</height>
 				<label>$LOCALIZE[563]:</label>
 				<align>left</align>
@@ -139,11 +139,11 @@
 			</control>
 			<control type="image">
 				<description>Rating value</description>
-				<posx>120</posx>
-				<posy>330</posy>
+				<posx>90</posx>
+				<posy>325</posy>
 				<width>160</width>
 				<height>32</height>
-				<texture>$INFO[ListItem.Property(Addon.Rating)]</texture>
+				<texture>$INFO[ListItem.Property(Addon.StarRating)]</texture>
 			</control>
 			<control type="image">
 				<posx>0</posx>
