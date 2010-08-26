@@ -1,7 +1,7 @@
 [B]Version 1.2.2[/B]
 
 - OSD Pause and Play buttons now go completely black when unfocused like the rest (as it should be)
-
+- Added "Minutes" text to the Video info dialog run times
 [B]Version 1.2.2[/B]
 
 - Updated the default background images to something more stylish
