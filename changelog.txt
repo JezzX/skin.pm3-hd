@@ -1,4 +1,6 @@
-[B]Version 1.2.4[/B] (not in repo yet)
+[B]Version 1.2.4[/B]
+- Added the show notification button to the addon browser
+- Fixed you couldn't get into the fullscreen Video/Audio Settings properly some times
 - Updated the Dutch language file thanks Adje
 
 [B]Version 1.2.3[/B]
