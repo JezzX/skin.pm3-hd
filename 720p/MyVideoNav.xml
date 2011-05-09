@@ -120,7 +120,7 @@
 					<onleft>50</onleft>
 					<onright>4</onright>
 					<onup>2</onup>
-					<ondown>99</ondown>
+					<ondown>14</ondown>
 				</control>
 				<control type="togglebutton" id="4">
 					<description>Sort asc</description>
@@ -130,36 +130,23 @@
 					<onleft>3</onleft>
 					<onright>50</onright>
 					<onup>2</onup>
-					<ondown>99</ondown>
-				</control>
-				<control type="radiobutton" id="99">
-					<description>Library button</description>
-					<posx>0</posx>
-					<posy>90</posy>
-					<label>$LOCALIZE[29800]</label>
-					<onclick>ReplaceWindow(myvideofiles)</onclick>
-					<selected>Window.IsVisible(myvideolibrary)</selected>
-					<include>ButtonCommonValues</include>
-					<onleft>50</onleft>
-					<onright>50</onright>
-					<onup>3</onup>
 					<ondown>14</ondown>
 				</control>
 				<control type="radiobutton" id="14">
 					<description>Watched Toggle</description>
 					<posx>0</posx>
-					<posy>135</posy>
+					<posy>90</posy>
 					<include>ButtonCommonValues</include>
 					<label>20367</label>
 					<onleft>50</onleft>
 					<onright>50</onright>
-					<onup>99</onup>
+					<onup>3</onup>
 					<ondown>8</ondown>
 				</control>
 				<control type="button" id="8">
 					<description>Search</description>
 					<posx>0</posx>
-					<posy>180</posy>
+					<posy>135</posy>
 					<include>ButtonCommonValues</include>
 					<label>137</label>
 					<onleft>50</onleft>
@@ -170,7 +157,7 @@
 				<control type="radiobutton" id="19">
 					<description>Filter</description>
 					<posx>0</posx>
-					<posy>225</posy>
+					<posy>180</posy>
 					<include>ButtonCommonValues</include>
 					<label>587</label>
 					<onleft>50</onleft>
@@ -181,7 +168,7 @@
 				<control type="radiobutton" id="16">
 					<description>PartyMode</description>
 					<posx>0</posx>
-					<posy>270</posy>
+					<posy>225</posy>
 					<include>ButtonCommonValues</include>
 					<label>589</label>
 					<onleft>50</onleft>
@@ -192,12 +179,23 @@
 				<control type="radiobutton" id="17">
 					<description>Flatten</description>
 					<posx>0</posx>
-					<posy>315</posy>
+					<posy>270</posy>
 					<include>ButtonCommonValues</include>
 					<label>20411</label>
 					<onleft>50</onleft>
 					<onright>50</onright>
 					<onup>16</onup>
+					<ondown>7</ondown>
+				</control>
+				<control type="radiobutton" id="7">
+					<description>Stack button</description>
+					<posx>0</posx>
+					<posy>315</posy>
+					<label>$LOCALIZE[346]</label>
+					<include>ButtonCommonValues</include>
+					<onleft>50</onleft>
+					<onright>50</onright>
+					<onup>17</onup>
 					<ondown>11</ondown>
 				</control>
 				<control type="radiobutton" id="11">
@@ -208,7 +206,7 @@
 					<label>20336</label>
 					<onleft>50</onleft>
 					<onright>50</onright>
-					<onup>17</onup>
+					<onup>7</onup>
 					<ondown>610</ondown>
 					<pulseonselect>no</pulseonselect>
 					<onclick>xbmc.mastermode</onclick>
@@ -224,7 +222,6 @@
 				<control type="group">
 					<posx>0</posx>
 					<posy>405</posy>
-					<animation effect="slide" start="0,0" end="0,-45" time="0" condition="!Control.IsVisible(99)">conditional</animation>
 					<animation effect="slide" start="0,0" end="0,-45" time="0" condition="!Control.IsVisible(11)">conditional</animation>
 					<include>CommonNowPlaying_Controls</include>
 				</control>

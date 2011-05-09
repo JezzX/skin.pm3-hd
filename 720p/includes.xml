@@ -348,9 +348,8 @@
 			<posx>10</posx>
 			<posy>450</posy>
 			<visible>Player.HasAudio</visible>
-			<visible>![Window.IsVisible(VideoLibrary) + Control.IsVisible(56)]</visible>
-			<visible>![Window.IsVisible(VideoLibrary) + Control.IsVisible(500)]</visible>
-			<visible>![Window.IsVisible(VideoFiles) + Control.IsVisible(500)]</visible>
+			<visible>![Window.IsVisible(Videos) + Control.IsVisible(56)]</visible>
+			<visible>![Window.IsVisible(Videos) + Control.IsVisible(500)]</visible>
 			<visible>![Window.IsVisible(MusicLibrary) + Control.IsVisible(500)]</visible>
 			<visible>![Window.IsVisible(MusicLibrary) + Control.IsVisible(56)]</visible>
 			<visible>![Window.IsVisible(MusicFiles) + Control.IsVisible(500)]</visible>
@@ -365,7 +364,7 @@
 				<bordersize>5</bordersize>
 				<aspectratio align="left">keep</aspectratio>
 				<visible>!Window.IsVisible(MusicLibrary)</visible>
-				<visible>!Window.IsVisible(VideoLibrary)</visible>
+				<visible>!Window.IsVisible(Videos)</visible>
 			</control>
 			<control type="image">
 				<posx>0</posx>
@@ -435,9 +434,8 @@
 			<posx>10</posx>
 			<posy>450</posy>
 			<visible>Player.HasVideo</visible>
-			<visible>![Window.IsVisible(VideoLibrary) + Control.IsVisible(56)]</visible>
-			<visible>![Window.IsVisible(VideoLibrary) + Control.IsVisible(500)]</visible>
-			<visible>![Window.IsVisible(VideoFiles) + Control.IsVisible(500)]</visible>
+			<visible>![Window.IsVisible(Videos) + Control.IsVisible(56)]</visible>
+			<visible>![Window.IsVisible(Videos) + Control.IsVisible(500)]</visible>
 			<visible>![Window.IsVisible(MusicLibrary) + Control.IsVisible(500)]</visible>
 			<visible>![Window.IsVisible(MusicLibrary) + Control.IsVisible(56)]</visible>
 			<visible>![Window.IsVisible(MusicFiles) + Control.IsVisible(500)]</visible>
@@ -449,14 +447,14 @@
 				<height>165</height>
 				<colordiffuse>AAFFFFFF</colordiffuse>
 				<texture>black-back.png</texture>
-				<visible>!Window.IsVisible(VideoLibrary)</visible>
+				<visible>!Window.IsVisible(Videos)</visible>
 			</control>
 			<control type="videowindow">
 				<posx>5</posx>
 				<posy>15</posy>
 				<width>250</width>
 				<height>155</height>
-				<visible>!Window.IsVisible(VideoLibrary)</visible>
+				<visible>!Window.IsVisible(Videos)</visible>
 			</control>
 			<control type="label">
 				<posx>5</posx>
@@ -563,7 +561,7 @@
 			<onright>9000</onright>
 			<showonepage>false</showonepage>
 			<orientation>vertical</orientation>
-			<visible>[Control.IsVisible(59) + Window.IsVisible(MusicFiles)] | [Control.IsVisible(59) + Window.IsVisible(MusicLibrary)] | [Control.IsVisible(59) + Window.IsVisible(MusicPlaylist)] | [Control.IsVisible(58) + Window.IsVisible(VideoLibrary)] | Control.IsVisible(550)</visible>
+			<visible>[Control.IsVisible(59) + Window.IsVisible(MusicFiles)] | [Control.IsVisible(59) + Window.IsVisible(MusicLibrary)] | [Control.IsVisible(59) + Window.IsVisible(MusicPlaylist)] | [Control.IsVisible(58) + Window.IsVisible(Videos)] | Control.IsVisible(550)</visible>
 		</control>
 		<control type="scrollbar" id="60">
 			<posx>1255</posx>
@@ -584,7 +582,7 @@
 			<visible>![Control.IsVisible(59) + Window.IsVisible(MusicFiles)]</visible>
 			<visible>![Control.IsVisible(59) + Window.IsVisible(MusicLibrary)]</visible>
 			<visible>![Control.IsVisible(59) + Window.IsVisible(MusicPlaylist)]</visible>
-			<visible>![Control.IsVisible(58) + Window.IsVisible(VideoLibrary)]</visible>
+			<visible>![Control.IsVisible(58) + Window.IsVisible(Videos)]</visible>
 			<visible>!Control.IsVisible(550)</visible>
 			<animation effect="slide" end="-410,0" time="0" condition="Control.IsVisible(51)">Conditional</animation>
 		</control>
@@ -596,10 +594,9 @@
 			<animation effect="fade" time="300">Hidden</animation>
 			<animation effect="slide" end="-200,0" time="0" condition="Control.IsVisible(51)">Conditional</animation>
 			<animation effect="slide" end="130,-50" time="0" condition="[Window.IsVisible(MusicFiles) | Window.IsVisible(Musiclibrary) | Window.IsVisible(MusicPlaylist)] + Control.IsVisible(59)">Conditional</animation>
-			<animation effect="slide" end="280,0" time="0" condition="Window.IsVisible(Videolibrary) + [Control.IsVisible(56) | Control.IsVisible(59)]">Conditional</animation>
-			<animation effect="slide" end="130,-50" time="0" condition="Window.IsVisible(Videolibrary) + Control.IsVisible(58)">Conditional</animation>
-			<animation effect="slide" end="-130,0" time="0" condition="Window.IsVisible(Videolibrary) + Control.IsVisible(500)">Conditional</animation>
-			<animation effect="slide" end="-130,0" time="0" condition="Window.IsVisible(VideoFiles) + Control.IsVisible(500)">Conditional</animation>
+			<animation effect="slide" end="280,0" time="0" condition="Window.IsVisible(Videos) + [Control.IsVisible(56) | Control.IsVisible(59)]">Conditional</animation>
+			<animation effect="slide" end="130,-50" time="0" condition="Window.IsVisible(Videos) + Control.IsVisible(58)">Conditional</animation>
+			<animation effect="slide" end="-130,0" time="0" condition="Window.IsVisible(Videos) + Control.IsVisible(500)">Conditional</animation>
 			<animation effect="slide" end="-130,0" time="0" condition="Window.IsVisible(Musiclibrary) + Control.IsVisible(500)">Conditional</animation>
 			<animation effect="slide" end="-130,0" time="0" condition="Window.IsVisible(MusicFiles) + Control.IsVisible(500)">Conditional</animation>
 			<posx>740</posx>

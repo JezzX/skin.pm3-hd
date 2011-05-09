@@ -1,7 +1,6 @@
 <includes>
 	<include name="CommonRootView">
 		<control type="list" id="50">
-			<visible>![Container.Content(TVShows) + !Window.IsVisible(VideoFiles)] + ![Container.Content(Movies) + !Window.IsVisible(VideoFiles)] + !Container.Content(Seasons)</visible>
 			<posx>300</posx>
 			<posy>130</posy>
 			<width>950</width>
@@ -44,7 +43,7 @@
 					<align>right</align>
 					<aligny>center</aligny>
 					<label>$INFO[ListItem.Label2]</label>
-					<visible>![Window.IsVisible(VideoFiles) | Window.IsVisible(VideoLibrary)]</visible>
+					<visible>!Window.IsVisible(Videos)</visible>
 				</control>
 				<control type="label">
 					<posx>920</posx>
@@ -57,7 +56,7 @@
 					<align>right</align>
 					<aligny>center</aligny>
 					<label>$INFO[ListItem.Label2]</label>
-					<visible>Window.IsVisible(VideoFiles) | Window.IsVisible(VideoLibrary)</visible>
+					<visible>Window.IsVisible(Videos)</visible>
 				</control>
 				<control type="image">
 					<posx>920</posx>
@@ -65,7 +64,7 @@
 					<width>30</width>
 					<height>22</height>
 					<texture>$INFO[ListItem.Overlay,List]</texture>
-					<visible>Window.IsVisible(VideoFiles) | Window.IsVisible(VideoLibrary)</visible>
+					<visible>Window.IsVisible(Videos)</visible>
 				</control>
 			</itemlayout>
 			<focusedlayout height="30" width="950">
@@ -108,7 +107,7 @@
 					<align>right</align>
 					<aligny>center</aligny>
 					<label>$INFO[ListItem.Label2]</label>
-					<visible>![Window.IsVisible(VideoFiles) | Window.IsVisible(VideoLibrary)]</visible>
+					<visible>!Window.IsVisible(Videos)</visible>
 				</control>
 				<control type="label">
 					<posx>920</posx>
@@ -121,7 +120,7 @@
 					<align>right</align>
 					<aligny>center</aligny>
 					<label>$INFO[ListItem.Label2]</label>
-					<visible>Window.IsVisible(VideoFiles) | Window.IsVisible(VideoLibrary)</visible>
+					<visible>Window.IsVisible(Videos)</visible>
 				</control>
 				<control type="image">
 					<posx>920</posx>
@@ -129,14 +128,14 @@
 					<width>30</width>
 					<height>22</height>
 					<texture>$INFO[ListItem.Overlay,List]</texture>
-					<visible>Window.IsVisible(VideoFiles) | Window.IsVisible(VideoLibrary)</visible>
+					<visible>Window.IsVisible(Videos)</visible>
 				</control>
 			</focusedlayout>
 		</control>
 	</include>
 	<include name="CommonListView">
 		<control type="list" id="51">
-			<visible>![Container.Content(TVShows) + !Window.IsVisible(VideoFiles)] + !Container.Content(Episodes)</visible>
+			<visible>!Container.Content(Episodes)</visible>
 			<posx>300</posx>
 			<posy>130</posy>
 			<width>540</width>
@@ -967,7 +966,7 @@
 	</include>
 	<include name="ThumbnailView">
 		<control type="panel" id="53">
-			<visible>![Container.Content(TVShows) + !Window.IsVisible(VideoFiles)] + !Container.Content(Movies) + !Container.Content(Songs)</visible>
+			<visible>!Container.Content(TVShows) + !Container.Content(Movies) + !Container.Content(Songs)</visible>
 			<posx>300</posx>
 			<posy>130</posy>
 			<width>950</width>
@@ -1058,7 +1057,7 @@
 	</include>
 	<include name="VideoThumbnailView">
 		<control type="panel" id="53">
-			<visible>![Container.Content(TVShows) + !Window.IsVisible(VideoFiles)]</visible>
+			<visible>!Container.Content(TVShows)</visible>
 			<posx>300</posx>
 			<posy>130</posy>
 			<width>950</width>
@@ -1223,7 +1222,7 @@
 	</include>
 	<include name="WideIconView">
 		<control type="panel" id="54">
-			<visible>Container.Content(TVShows) | Window.IsVisible(VideoFiles) | Window.IsVisible(Programs)</visible>
+			<visible>Container.Content(TVShows) | Window.IsVisible(Programs)</visible>
 			<posx>300</posx>
 			<posy>130</posy>
 			<width>950</width>

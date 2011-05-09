@@ -419,20 +419,20 @@
 						<onclick>ActivateWindow(Videos)</onclick>
 						<icon>special://skin/backgrounds/videos.jpg</icon>
 						<thumb>$INFO[Skin.String(Home_Custom_Back_Video_Folder)]</thumb>
-						<visible>Library.HasContent(Video) + !Skin.HasSetting(homepageVideoButtonAlwaysFilemode)</visible>
+						<visible>!Skin.HasSetting(homepageVideoButtonAlwaysFilemode)</visible>
 						<visible>!Skin.HasSetting(homepageHideVideoButton)</visible>
 					</item>
 					<item id="1">
 						<label>3</label>
-						<onclick>ActivateWindow(VideoFiles)</onclick>
+						<onclick>ActivateWindow(Videos,Files)</onclick>
 						<icon>special://skin/backgrounds/videos.jpg</icon>
 						<thumb>$INFO[Skin.String(Home_Custom_Back_Video_Folder)]</thumb>
-						<visible>!Library.HasContent(Video) | Skin.HasSetting(homepageVideoButtonAlwaysFilemode)</visible>
+						<visible>Skin.HasSetting(homepageVideoButtonAlwaysFilemode)</visible>
 						<visible>!Skin.HasSetting(homepageHideVideoButton)</visible>
 					</item>
 					<item id="9">
 						<label>20342</label>
-						<onclick>ActivateWindow(VideoLibrary,MovieTitles,return)</onclick>
+						<onclick>ActivateWindow(Videos,MovieTitles,return)</onclick>
 						<icon>special://skin/backgrounds/movies.jpg</icon>
 						<thumb>$INFO[Skin.String(Home_Custom_Back_Movies_Folder)]</thumb>
 						<visible>Library.HasContent(Movies)</visible>
@@ -440,7 +440,7 @@
 					</item>
 					<item id="10">
 						<label>20343</label>
-						<onclick>ActivateWindow(VideoLibrary,TVShowTitles,return)</onclick>
+						<onclick>ActivateWindow(Videos,TVShowTitles,return)</onclick>
 						<icon>special://skin/backgrounds/tvshow.jpg</icon>
 						<thumb>$INFO[Skin.String(Home_Custom_Back_TVShow_Folder)]</thumb>
 						<visible>Library.HasContent(TVShows)</visible>

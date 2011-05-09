@@ -192,7 +192,7 @@
 			<ondown>61</ondown>
 			<usecontrolcoords>true</usecontrolcoords>
 			<control type="fixedlist" id="57">
-				<visible>Container.Content(Movies) | Container.Content(Seasons) | Window.IsVisible(VideoFiles)</visible>
+				<visible>!Container.Content(Episodes) + !Container.Content(MusicVideos) + !Container.Content(TVShows)</visible>
 				<posx>-60</posx>
 				<posy>0</posy>
 				<width>1090</width>
