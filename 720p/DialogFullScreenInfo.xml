@@ -731,6 +731,17 @@
 				</control>
 				<control type="label">
 					<posx>230</posx>
+					<posy>10</posy>
+					<width>885</width>
+					<height>25</height>
+					<label>$INFO[VideoPlayer.ChannelName]</label>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>font12</font>
+					<textcolor>grey2</textcolor>
+				</control>
+				<control type="label">
+					<posx>230</posx>
 					<posy>38</posy>
 					<width>1020</width>
 					<height>25</height>
@@ -745,7 +756,7 @@
 					<posy>70</posy>
 					<width>885</width>
 					<height>25</height>
-					<label>$INFO[VideoPlayer.Genre]</label>
+					<label>$INFO[VideoPlayer.PlotOutline]</label>
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>font12</font>
@@ -763,6 +774,18 @@
 					<font>font12</font>
 					<textcolor>white</textcolor>
 				</control>
+				<control type="label">
+					<description>time label</description>
+					<posx>1250</posx>
+					<posy>100</posy>
+					<width>280</width>
+					<height>25</height>
+					<label>$LOCALIZE[19148]: $INFO[VideoPlayer.ChannelNumber]</label>
+					<align>right</align>
+					<aligny>center</aligny>
+					<font>font14</font>
+					<textcolor>white</textcolor>
+				</control>
 				<control type="progress">
 					<description>Progressbar</description>
 					<posx>230</posx>
@@ -771,9 +794,32 @@
 					<height>8</height>
 					<info>Player.Progress</info>
 				</control>
+				<control type="label">
+					<posx>230</posx>
+					<posy>140</posy>
+					<width>500</width>
+					<height>25</height>
+					<label>$LOCALIZE[19141]: $INFO[VideoPlayer.ChannelGroup]</label>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>font11</font>
+					<textcolor>grey2</textcolor>
+					<scroll>true</scroll>
+				</control>
+				<control type="label">
+					<posx>1250</posx>
+					<posy>140</posy>
+					<width>500</width>
+					<height>25</height>
+					<label>$LOCALIZE[19031]: $INFO[VideoPlayer.NextTitle]</label>
+					<align>right</align>
+					<aligny>center</aligny>
+					<font>font11</font>
+					<textcolor>grey2</textcolor>
+					<scroll>true</scroll>
+				</control>
 			</control>
 			<control type="group">
-				<posy>0</posy>
 				<visible>Control.HasFocus(2) | Control.HasFocus(60)</visible>
 				<include>VisibleFadeEffect</include>
 				<control type="image">
@@ -808,7 +854,7 @@
 					<textureslidernib>scrollbar_nib.png</textureslidernib>
 					<textureslidernibfocus>scrollbar_nib.png</textureslidernibfocus>
 					<onleft>2</onleft>
-					<onright>1</onright>
+					<onright>2</onright>
 					<showonepage>false</showonepage>
 					<orientation>vertical</orientation>
 				</control>
