@@ -272,6 +272,16 @@
 				<align>right</align>
 				<aligny>center</aligny>
 			</control>
+			<control type="progress">
+				<description>Cache Progressbar</description>
+				<posx>10</posx>
+				<posy>31</posy>
+				<width>380</width>
+				<height>8</height>
+				<info>Player.ProgressCache</info>
+				<texturebg border="4,0,4,0">ProgressBack.png</texturebg>
+				<midtexture border="4,0,4,0">ProgressCache.png</midtexture>
+			</control>
 			<control type="progress" id="23">
 				<description>Progressbar</description>
 				<posx>10</posx>
@@ -279,7 +289,7 @@
 				<width>380</width>
 				<height>8</height>
 				<info>Player.Progress</info>
-				<visible>true</visible>
+				<texturebg border="4,0,4,0">ProgressBack2.png</texturebg>
 			</control>
 			<control type="progress">
 				<description>Player Caching Progress Bar</description>
