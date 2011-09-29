@@ -664,7 +664,7 @@
 						<posy>0</posy>
 						<include>ButtonSetBackgroundCommonValues</include>
 						<label>31113</label>
-						<onclick>Skin.SetImage(Home_Custom_Back_Movie_Folder)</onclick>
+						<onclick>Skin.SetImage(Home_Custom_Back_Movies_Folder)</onclick>
 						<onleft>9003</onleft>
 						<onright>301</onright>
 						<onup>300</onup>
@@ -676,7 +676,7 @@
 						<posy>0</posy>
 						<include>ButtonSetBackgroundCommonValues</include>
 						<label>31114</label>
-						<onclick>Skin.SetPath(Home_Custom_Back_Movie_Folder)</onclick>
+						<onclick>Skin.SetPath(Home_Custom_Back_Movies_Folder)</onclick>
 						<onleft>300</onleft>
 						<onright>302</onright>
 						<onup>301</onup>
@@ -688,7 +688,7 @@
 						<posy>0</posy>
 						<include>ButtonSetBackgroundCommonValues</include>
 						<label>571</label>
-						<onclick>Skin.Reset(Home_Custom_Back_Movie_Folder)</onclick>
+						<onclick>Skin.Reset(Home_Custom_Back_Movies_Folder)</onclick>
 						<onleft>301</onleft>
 						<onright>9000</onright>
 						<onup>302</onup>
