@@ -503,8 +503,8 @@
 		<control type="image">
 			<posx>40</posx>
 			<posy>30</posy>
-			<width>460</width>
-			<height>65</height>
+			<width>440</width>
+			<height>60</height>
 			<texture>xbmc-logo.png</texture>
 			<include>Window_OpenClose_Animation</include>
 		</control>
