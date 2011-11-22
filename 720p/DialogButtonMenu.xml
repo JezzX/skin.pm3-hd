@@ -76,6 +76,7 @@
 				<pulseonselect>no</pulseonselect>
 				<font>-</font>
 				<label>$LOCALIZE[13012] XBMC</label>
+				<visible>System.ShowExitButton</visible>
 			</control>
 			<control type="group" id="14">
 				<width>80</width>
