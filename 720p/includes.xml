@@ -10,6 +10,23 @@
 	<constant name="FanartCrossfadeTime">400</constant>
 	<constant name="IconCrossfadeTime">400</constant>
 
+	<variable name="PlaybackStateLabel">
+		<value condition="Player.Playing + !Player.Seeking">$LOCALIZE[31042]</value>
+		<value condition="[Player.Paused + !Player.Caching] + !Player.Seeking">$LOCALIZE[31043]</value>
+		<value condition="[Player.Paused + Player.Caching] + !Player.Seeking">$LOCALIZE[15107] $INFO[Player.CacheLevel]%</value>
+		<value condition="Player.Seeking">[UPPERCASE]$LOCALIZE[773][/UPPERCASE]</value>
+		<value condition="Player.Rewinding2x + !Player.Seeking">$LOCALIZE[31045] x2</value>
+		<value condition="Player.Rewinding4x + !Player.Seeking">$LOCALIZE[31045] x4</value>
+		<value condition="Player.Rewinding8x + !Player.Seeking">$LOCALIZE[31045] x8</value>
+		<value condition="Player.Rewinding16x + !Player.Seeking">$LOCALIZE[31045] x16</value>
+		<value condition="Player.Rewinding32x + !Player.Seeking">$LOCALIZE[31045] x32</value>
+		<value condition="Player.Forwarding2x + !Player.Seeking">$LOCALIZE[31044] x2</value>
+		<value condition="Player.Forwarding4x + !Player.Seeking">$LOCALIZE[31044] x4</value>
+		<value condition="Player.Forwarding8x + !Player.Seeking">$LOCALIZE[31044] x8</value>
+		<value condition="Player.Forwarding16x + !Player.Seeking">$LOCALIZE[31044] x16</value>
+		<value condition="Player.Forwarding32x + !Player.Seeking">$LOCALIZE[31044] x32</value>
+	</variable>
+
 	<include name="CommonBackground">
 		<control type="image">
 			<posx>0</posx>
