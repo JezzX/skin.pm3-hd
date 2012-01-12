@@ -102,12 +102,23 @@
 				<visible>Player.ChapterCount</visible>
 			</control>
 			<control type="progress">
+				<description>Cache Progressbar</description>
+				<posx>230</posx>
+				<posy>130</posy>
+				<width>1020</width>
+				<height>8</height>
+				<info>Player.ProgressCache</info>
+				<texturebg border="4,0,4,0">ProgressBack.png</texturebg>
+				<midtexture border="4,0,4,0">ProgressCache.png</midtexture>
+			</control>
+			<control type="progress">
 				<description>Progressbar</description>
 				<posx>230</posx>
 				<posy>130</posy>
 				<width>1020</width>
 				<height>8</height>
 				<info>Player.Progress</info>
+				<texturebg border="4,0,4,0">ProgressBack2.png</texturebg>
 			</control>
 			<control type="label">
 				<posx>1250</posx>
@@ -267,12 +278,23 @@
 					<visible>Player.ChapterCount</visible>
 				</control>
 				<control type="progress">
+					<description>Cache Progressbar</description>
+					<posx>255</posx>
+					<posy>130</posy>
+					<width>995</width>
+					<height>8</height>
+					<info>Player.ProgressCache</info>
+					<texturebg border="4,0,4,0">ProgressBack.png</texturebg>
+					<midtexture border="4,0,4,0">ProgressCache.png</midtexture>
+				</control>
+				<control type="progress">
 					<description>Progressbar</description>
 					<posx>255</posx>
 					<posy>130</posy>
 					<width>995</width>
 					<height>8</height>
 					<info>Player.Progress</info>
+					<texturebg border="4,0,4,0">ProgressBack2.png</texturebg>
 				</control>
 				<control type="label">
 					<posx>1250</posx>
@@ -474,12 +496,23 @@
 					<visible>Player.ChapterCount</visible>
 				</control>
 				<control type="progress">
+					<description>Cache Progressbar</description>
+					<posx>355</posx>
+					<posy>130</posy>
+					<width>895</width>
+					<height>8</height>
+					<info>Player.ProgressCache</info>
+					<texturebg border="4,0,4,0">ProgressBack.png</texturebg>
+					<midtexture border="4,0,4,0">ProgressCache.png</midtexture>
+				</control>
+				<control type="progress">
 					<description>Progressbar</description>
 					<posx>355</posx>
 					<posy>130</posy>
 					<width>895</width>
 					<height>8</height>
 					<info>Player.Progress</info>
+					<texturebg border="4,0,4,0">ProgressBack2.png</texturebg>
 				</control>
 				<control type="label">
 					<posx>1250</posx>
@@ -623,12 +656,23 @@
 				<textcolor>white</textcolor>
 			</control>
 			<control type="progress">
+				<description>Cache Progressbar</description>
+				<posx>230</posx>
+				<posy>130</posy>
+				<width>1020</width>
+				<height>8</height>
+				<info>Player.ProgressCache</info>
+				<texturebg border="4,0,4,0">ProgressBack.png</texturebg>
+				<midtexture border="4,0,4,0">ProgressCache.png</midtexture>
+			</control>
+			<control type="progress">
 				<description>Progressbar</description>
 				<posx>230</posx>
 				<posy>130</posy>
 				<width>1020</width>
 				<height>8</height>
 				<info>Player.Progress</info>
+				<texturebg border="4,0,4,0">ProgressBack2.png</texturebg>
 			</control>
 			<control type="label">
 				<posx>1250</posx>
@@ -787,12 +831,23 @@
 					<textcolor>white</textcolor>
 				</control>
 				<control type="progress">
+					<description>Cache Progressbar</description>
+					<posx>230</posx>
+					<posy>130</posy>
+					<width>1020</width>
+					<height>8</height>
+					<info>Player.ProgressCache</info>
+					<texturebg border="4,0,4,0">ProgressBack.png</texturebg>
+					<midtexture border="4,0,4,0">ProgressCache.png</midtexture>
+				</control>
+				<control type="progress">
 					<description>Progressbar</description>
 					<posx>230</posx>
 					<posy>130</posy>
 					<width>1020</width>
 					<height>8</height>
 					<info>Player.Progress</info>
+					<texturebg border="4,0,4,0">ProgressBack2.png</texturebg>
 				</control>
 				<control type="label">
 					<posx>230</posx>
