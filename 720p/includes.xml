@@ -654,21 +654,6 @@
 		<texturenofocus border="32,0,0,0">Button_Side_NoFocus.png</texturenofocus>
 		<pulseonselect>true</pulseonselect>
 	</include>
-	<include name="ButtonHomeSubCommonValues">
-		<height>22</height>
-		<width>320</width>
-		<font>font12</font>
-		<align>center</align>
-		<aligny>center</aligny>
-		<textcolor>grey</textcolor>
-		<focusedcolor>white</focusedcolor>
-		<texturefocus>-</texturefocus>
-		<texturenofocus>-</texturenofocus>
-		<onleft>SetFocus(2)</onleft>
-		<onleft>Control.Move(2,-1)</onleft>
-		<onright>SetFocus(2)</onright>
-		<onright>Control.Move(2,1)</onright>
-	</include>
 	<include name="ButtonInfoDialogsCommonValues">
 		<height>30</height>
 		<width>200</width>
@@ -829,10 +814,6 @@
 				<onclick>ActivateWindow(Home)</onclick>
 			</control>
 		</control>
-	</include>
-	<include name="backgroundfade">
-		 <animation effect="fade" time="600">Visible</animation>
-		 <animation effect="fade" time="600">Hidden</animation>
 	</include>
 	<include name="Window_OpenClose_Animation">
 		<animation effect="fade" time="200">WindowOpen</animation>
