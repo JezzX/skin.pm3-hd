@@ -91,6 +91,11 @@
 						<icon>icon_addons.png</icon>
 					</item>
 					<item>
+						<label>31400</label>
+						<onclick>ActivateWindow(MyTVSettings)</onclick>
+						<icon>icon_tv.png</icon>
+					</item>
+					<item>
 						<label>13200</label>
 						<onclick>ActivateWindow(Profiles)</onclick>
 						<icon>unknown-user.png</icon>

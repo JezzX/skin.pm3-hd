@@ -63,7 +63,7 @@
   <string id="31058">System music files</string>
   <string id="31059">Current playlist</string>
   <string id="31060">This file is stacked, select the part you want to play from.</string>
-  
+
   <!-- Skin Settings labels -->
   <string id="31100">Background options</string>
   <string id="31101">Home screen options</string>
@@ -82,6 +82,7 @@
   <string id="31114">Multi Image</string>
   <string id="31115">Replace Audio Settings Button with Teletext</string>
   <string id="31116">Hide Video flag images in media views</string>
+  <string id="31117">Show Live TV Info</string>
 
   <string id="31118">Show Fanart in main panel background</string>
   <string id="31119">Hide Main Menu Buttons</string>
@@ -94,7 +95,7 @@
   <string id="31202"></string>
   <string id="31203">Set button label</string>
   <string id="31204">Add-on path</string>
-  <string id="31205"></string>
+  <string id="31205">Channels are the first point inside TV Window</string>
   <string id="31206"></string>
   <string id="31207">Show subtitle download button in Video OSD</string>
   <string id="31208">Show lyrics Add-on button in Music OSD</string>
@@ -106,4 +107,14 @@
 
   <!-- AMT Script Extra labels -->
   <string id="31300">Show cast</string>
+
+  <!-- PVR Labels -->
+  <string id="31400">Live TV</string>
+  <string id="31401">Timer</string>
+  <string id="31402">New Group</string>
+  <string id="31403">Rename Group</string>
+  <string id="31404">Delete Group</string>
+  <string id="31405">Available[CR]Groups</string>
+  <string id="31406">Ungrouped[CR]channels</string>
+  <string id="31407">Channels in Group</string>
 </strings>
