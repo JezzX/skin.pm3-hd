@@ -106,8 +106,8 @@
 						<icon>icon_weather.png</icon>
 					</item>
 					<item>
-						<label>705</label>
-						<onclick>ActivateWindow(NetworkSettings)</onclick>
+						<label>14036</label>
+						<onclick>ActivateWindow(ServiceSettings)</onclick>
 						<icon>icon_network.png</icon>
 					</item>
 					<item>
