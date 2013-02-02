@@ -547,14 +547,14 @@
 							<item id="1">
 								<label>3</label>
 								<label2>Home_Custom_Back_Video_Folder</label2>
-								<onclick>-</onclick>
+								<onclick>noop</onclick>
 								<icon>special://skin/backgrounds/videos.jpg</icon>
 								<thumb>$INFO[Skin.String(Home_Custom_Back_Video_Folder)]</thumb>
 								<visible>!Skin.HasSetting(homepageHideVideoButton)</visible>
 							</item>
 							<item id="8">
 								<label>31400</label>
-								<onclick>-</onclick>
+								<onclick>noop</onclick>
 								<icon>special://skin/backgrounds/tv.jpg</icon>
 								<thumb>$INFO[Skin.String(Home_Custom_Back_TV_Folder)]</thumb>
 								<visible>System.GetBool(pvrmanager.enabled)</visible>
@@ -562,7 +562,7 @@
 							<item id="9">
 								<label>20342</label>
 								<label2>Home_Custom_Back_Movies_Folder</label2>
-								<onclick>-</onclick>
+								<onclick>noop</onclick>
 								<icon>special://skin/backgrounds/movies.jpg</icon>
 								<thumb>$INFO[Skin.String(Home_Custom_Back_Movies_Folder)]</thumb>
 								<visible>Library.HasContent(Movies)</visible>
@@ -571,7 +571,7 @@
 							<item id="10">
 								<label>20343</label>
 								<label2>Home_Custom_Back_TVShow_Folder</label2>
-								<onclick>-</onclick>
+								<onclick>noop</onclick>
 								<icon>special://skin/backgrounds/tvshow.jpg</icon>
 								<thumb>$INFO[Skin.String(Home_Custom_Back_TVShow_Folder)]</thumb>
 								<visible>Library.HasContent(TVShows)</visible>
@@ -580,7 +580,7 @@
 							<item id="2">
 								<label>2</label>
 								<label2>Home_Custom_Back_Music_Folder</label2>
-								<onclick>-</onclick>
+								<onclick>noop</onclick>
 								<icon>special://skin/backgrounds/music.jpg</icon>
 								<thumb>$INFO[Skin.String(Home_Custom_Back_Music_Folder)]</thumb>
 								<visible>!Skin.HasSetting(homepageHideMusicButton)</visible>
@@ -588,7 +588,7 @@
 							<item id="3">
 								<label>1</label>
 								<label2>Home_Custom_Back_Pictures_Folder</label2>
-								<onclick>-</onclick>
+								<onclick>noop</onclick>
 								<icon>special://skin/backgrounds/pictures.jpg</icon>
 								<thumb>$INFO[Skin.String(Home_Custom_Back_Pictures_Folder)]</thumb>
 								<visible>!Skin.HasSetting(homepageHidePictureButton)</visible>
@@ -596,7 +596,7 @@
 							<item id="4">
 								<label>0</label>
 								<label2>Home_Custom_Back_Programs_Folder</label2>
-								<onclick>-</onclick>
+								<onclick>noop</onclick>
 								<icon>special://skin/backgrounds/programs.jpg</icon>
 								<thumb>$INFO[Skin.String(Home_Custom_Back_Programs_Folder)]</thumb>
 								<visible>!Skin.HasSetting(homepageHideProgramButton)</visible>
@@ -604,7 +604,7 @@
 							<item id="5">
 								<label>8</label>
 								<label2>Home_Custom_Back_Weather_Folder</label2>
-								<onclick>-</onclick>
+								<onclick>noop</onclick>
 								<icon>special://skin/backgrounds/weather.jpg</icon>
 								<thumb>$INFO[Skin.String(Home_Custom_Back_Weather_Folder)]</thumb>
 								<visible>!Skin.HasSetting(homepageHideWeatherButton)</visible>
@@ -612,7 +612,7 @@
 							<item id="7">
 								<label>5</label>
 								<label2>Home_Custom_Back_Settings_Folder</label2>
-								<onclick>-</onclick>
+								<onclick>noop</onclick>
 								<icon>special://skin/backgrounds/settings.jpg</icon>
 								<thumb>$INFO[Skin.String(Home_Custom_Back_Settings_Folder)]</thumb>
 							</item>
