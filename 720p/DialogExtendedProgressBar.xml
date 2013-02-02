@@ -1,5 +1,5 @@
-<window id="133">
-	<defaultcontrol>402</defaultcontrol>
+<window>
+	<defaultcontrol></defaultcontrol>
 	<include>dialogeffect</include>
 	<coordinates>
 		<system>1</system>
@@ -20,8 +20,8 @@
 				<bordertexture border="3">NoCover_1.png</bordertexture>
 				<bordersize>4</bordersize>
 			</control>
-			<control type="label" id="401">
-				<description>Caption Label</description>
+			<control type="label" id="30">
+				<description>Header Label</description>
 				<posx>10</posx>
 				<posy>4</posy>
 				<width>380</width>
@@ -31,8 +31,8 @@
 				<align>left</align>
 				<aligny>center</aligny>
 			</control>
-			<control type="label" id="402">
-				<description>Current Directory Label</description>
+			<control type="label" id="31">
+				<description>Title Label</description>
 				<posx>10</posx>
 				<posy>20</posy>
 				<width>380</width>
@@ -40,30 +40,11 @@
 				<font>font10</font>
 				<align>left</align>
 				<aligny>center</aligny>
-				<visible>Skin.HasSetting(No_Media_Titles_In_Scanner)</visible>
 			</control>
-			<control type="label" id="405">
-				<description>Current Title Label</description>
-				<posx>10</posx>
-				<posy>20</posy>
-				<width>380</width>
-				<height>20</height>
-				<font>font10</font>
-				<align>left</align>
-				<aligny>center</aligny>
-				<visible>!Skin.HasSetting(No_Media_Titles_In_Scanner)</visible>
-			</control>
-			<control type="progress" id="403">
+			<control type="progress" id="32">
 				<description>progress control</description>
 				<posx>10</posx>
-				<posy>42</posy>
-				<width>380</width>
-				<height>6</height>
-			</control>
-			<control type="progress" id="404">
-				<description>progress control</description>
-				<posx>10</posx>
-				<posy>49</posy>
+				<posy>44</posy>
 				<width>380</width>
 				<height>6</height>
 			</control>
