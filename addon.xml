@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
-  id="skin.pm3-hd-pvr"
-  version="2.1.1"
-  name="PM3.HD for PVR"
+  id="skin.pm3-hd"
+  version="2.5.0"
+  name="PM3.HD"
   provider-name="Jezz_X, Team XBMC">
   <requires>
-    <import addon="xbmc.gui" version="3.00"/>
+    <import addon="xbmc.gui" version="4.0.0"/>
   </requires>
   <extension
     point="xbmc.gui.skin"
