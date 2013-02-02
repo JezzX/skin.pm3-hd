@@ -635,7 +635,8 @@
 					</item>
 					<item id="4">
 						<label>0</label>
-						<onclick>ActivateWindow(Programs,Addons,return)</onclick>
+						<onclick condition="!System.Platform.Android">ActivateWindow(Programs,Addons,return)</onclick>
+						<onclick condition="System.Platform.Android">ActivateWindow(Programs)</onclick>
 						<icon>special://skin/backgrounds/programs.jpg</icon>
 						<thumb>$INFO[Skin.String(Home_Custom_Back_Programs_Folder)]</thumb>
 						<visible>!Skin.HasSetting(homepageHideProgramButton)</visible>
