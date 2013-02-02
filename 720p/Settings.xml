@@ -139,25 +139,11 @@
 					<onleft>50</onleft>
 					<onright>50</onright>
 					<onup>611</onup>
-					<ondown>21</ondown>
-				</control>
-				<control type="button" id="21">
-					<description>Skin Settings button</description>
-					<posx>0</posx>
-					<posy>45</posy>
-					<include>ButtonCommonValues</include>
-					<label>20077</label>
-					<onclick>ActivateWindow(1111)</onclick>
-					<onleft>50</onleft>
-					<onright>50</onright>
-					<onup>20</onup>
 					<ondown>610</ondown>
-					<pulseonselect>no</pulseonselect>
-					<visible>true</visible>
 				</control>
 				<control type="button" id="610">
 					<description>Fake Button to fix Player Controls Navigation</description>
-					<onup>21</onup>
+					<onup>20</onup>
 					<ondown>603</ondown>
 					<visible>false</visible>
 				</control>
