@@ -81,18 +81,45 @@
 					<onleft>50</onleft>
 					<onright>50</onright>
 					<onup>3</onup>
-					<ondown>610</ondown>
+					<ondown>19</ondown>
 					<enable>Library.HasContent(Music)</enable>
+				</control>
+				<control type="radiobutton" id="19">
+					<description>Filter</description>
+					<posx>0</posx>
+					<posy>135</posy>
+					<include>ButtonCommonValues</include>
+					<label>587</label>
+					<onleft>50</onleft>
+					<onright>50</onright>
+					<onup>99</onup>
+					<ondown>20</ondown>
+					<selected>Container.Filtered</selected>
+					<visible>!Container.CanFilterAdvanced</visible>
+				</control>
+				<control type="radiobutton" id="20">
+					<description>Advanced Filter</description>
+					<posx>0</posx>
+					<posy>135</posy>
+					<include>ButtonCommonValues</include>
+					<label>587</label>
+					<onclick>Filter</onclick>
+					<onleft>50</onleft>
+					<onright>50</onright>
+					<onup>19</onup>
+					<ondown>610</ondown>
+					<selected>Container.Filtered</selected>
+					<visible>Container.CanFilterAdvanced</visible>
 				</control>
 				<control type="button" id="610">
 					<description>Fake Button to fix Player Controls Navigation</description>
-					<onup>99</onup>
+					<onup>20</onup>
 					<ondown>603</ondown>
 					<visible>false</visible>
 				</control>
 				<control type="group">
 					<posx>0</posx>
-					<posy>135</posy>
+					<posy>180</posy>
 					<include>CommonNowPlaying_Controls</include>
 				</control>
 				<control type="button" id="611">

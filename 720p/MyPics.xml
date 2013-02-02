@@ -42,7 +42,7 @@
 					<onleft>50</onleft>
 					<onright>4</onright>
 					<onup>2</onup>
-					<ondown>6</ondown>
+					<ondown>19</ondown>
 				</control>
 				<control type="togglebutton" id="4">
 					<description>Sort asc</description>
@@ -52,23 +52,50 @@
 					<onleft>3</onleft>
 					<onright>50</onright>
 					<onup>2</onup>
+					<ondown>19</ondown>
+				</control>
+				<control type="radiobutton" id="19">
+					<description>Filter</description>
+					<posx>0</posx>
+					<posy>90</posy>
+					<include>ButtonCommonValues</include>
+					<label>587</label>
+					<onleft>50</onleft>
+					<onright>50</onright>
+					<onup>3</onup>
+					<ondown>20</ondown>
+					<selected>Container.Filtered</selected>
+					<visible>!Container.CanFilterAdvanced</visible>
+				</control>
+				<control type="radiobutton" id="20">
+					<description>Advanced Filter</description>
+					<posx>0</posx>
+					<posy>90</posy>
+					<include>ButtonCommonValues</include>
+					<label>587</label>
+					<onclick>Filter</onclick>
+					<onleft>50</onleft>
+					<onright>50</onright>
+					<onup>19</onup>
 					<ondown>6</ondown>
+					<selected>Container.Filtered</selected>
+					<visible>Container.CanFilterAdvanced</visible>
 				</control>
 				<control type="button" id="6">
 					<description>Slideshow</description>
 					<posx>0</posx>
-					<posy>90</posy>
+					<posy>135</posy>
 					<include>ButtonCommonValues</include>
 					<label>108</label>
 					<onleft>50</onleft>
 					<onright>50</onright>
-					<onup>3</onup>
+					<onup>20</onup>
 					<ondown>7</ondown>
 				</control>
 				<control type="button" id="7">
 					<description>Recersive Slideshow</description>
 					<posx>0</posx>
-					<posy>135</posy>
+					<posy>180</posy>
 					<include>ButtonCommonValues</include>
 					<label>361</label>
 					<onleft>50</onleft>
@@ -79,7 +106,7 @@
 				<control type="radiobutton" id="9">
 					<description>Randomize Toggle</description>
 					<posx>0</posx>
-					<posy>180</posy>
+					<posy>225</posy>
 					<include>ButtonCommonValues</include>
 					<label>13319</label>
 					<onleft>50</onleft>
@@ -95,7 +122,7 @@
 				</control>
 				<control type="group">
 					<posx>0</posx>
-					<posy>225</posy>
+					<posy>270</posy>
 					<include>CommonNowPlaying_Controls</include>
 				</control>
 				<control type="button" id="611">
