@@ -143,7 +143,7 @@
 				<aligny>center</aligny>
 				<font>font12</font>
 				<textcolor>grey2</textcolor>
-				<label>$LOCALIZE[19161]:</label>
+				<label>$LOCALIZE[19148]:</label>
 			</control>
 			<control type="fadelabel">
 				<description>Channel Value</description>
@@ -155,7 +155,7 @@
 				<aligny>center</aligny>
 				<font>font12</font>
 				<textcolor>white</textcolor>
-				<label fallback="161">$LOCALIZE[19161]: $INFO[ListItem.ChannelNumber]</label>
+				<label fallback="161">$LOCALIZE[19148]: $INFO[ListItem.ChannelNumber]</label>
 				<info>ListItem.ChannelName</info>
 			</control>
 			<control type="label">
