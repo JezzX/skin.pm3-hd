@@ -207,12 +207,12 @@
 					<posy>100</posy>
 					<width>640</width>
 					<height>350</height>
-					<info>Listitem.Property(Fanart_Image)</info>
+					<info>ListItem.Art(fanart)</info>
 					<aspectratio>keep</aspectratio>
-					<visible>!IsEmpty(Listitem.Property(Fanart_Image))</visible>
+					<visible>!IsEmpty(ListItem.Art(fanart))</visible>
 				</control>
 				<control type="group">
-					<visible>IsEmpty(Listitem.Property(Fanart_Image))</visible>
+					<visible>IsEmpty(ListItem.Art(fanart))</visible>
 					<control type="image">
 						<description>No Fanart Back</description>
 						<posx>60</posx>

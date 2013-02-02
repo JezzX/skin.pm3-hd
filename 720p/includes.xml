@@ -27,6 +27,15 @@
 		<value condition="Player.Forwarding32x + !Player.Seeking">$LOCALIZE[31044] x32</value>
 	</variable>
 
+	<variable name="BannerThumb">
+		<value condition="!IsEmpty(ListItem.Art(banner))">$INFO[ListItem.Art(banner)]</value>
+		<value condition="IsEmpty(ListItem.Art(banner))">$INFO[ListItem.Icon]</value>
+	</variable>
+	<variable name="PosterThumb">
+		<value condition="!IsEmpty(ListItem.Art(poster))">$INFO[ListItem.Art(poster)]</value>
+		<value condition="IsEmpty(ListItem.Art(poster))">$INFO[ListItem.Icon]</value>
+	</variable>
+
 	<include name="CommonBackground">
 		<control type="image">
 			<posx>0</posx>
@@ -44,7 +53,7 @@
 			<height>570</height>
 			<fadetime>FanartCrossfadeTime</fadetime>
 			<aspectratio scalediffuse="false">scale</aspectratio>
-			<texture diffuse="Fanart_Diffuse.png" background="true">$INFO[ListItem.Property(Fanart_Image)]</texture>
+			<texture diffuse="Fanart_Diffuse.png" background="true">$INFO[ListItem.Art(fanart)]</texture>
 			<visible>![Control.IsVisible(56) | Control.IsVisible(500)] + !Skin.HasSetting(Show_Panel_Fanart)</visible>
 			<include>VisibleFadeEffect</include>
 		</control>
@@ -54,7 +63,7 @@
 			<width>1015</width>
 			<height>580</height>
 			<texture border="50,0,0,45">Panel.png</texture>
-			<animation effect="fade" start="100" end="95" time="0" condition="!IsEmpty(ListItem.Property(Fanart_Image))">conditional</animation>
+			<animation effect="fade" start="100" end="95" time="0" condition="!IsEmpty(ListItem.Art(fanart))">conditional</animation>
 		</control>
 	</include>
 	<include name="WindowTitleCommons">
