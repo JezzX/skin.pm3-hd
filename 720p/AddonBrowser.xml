@@ -83,7 +83,7 @@
 					<label>25001</label>
 					<onleft>50</onleft>
 					<onright>50</onright>
-					<onup>5</onup>
+					<onup>6</onup>
 					<ondown>610</ondown>
 				</control>
 				<control type="button" id="610">
@@ -94,7 +94,7 @@
 				</control>
 				<control type="group">
 					<posx>0</posx>
-					<posy>135</posy>
+					<posy>225</posy>
 					<include>CommonNowPlaying_Controls</include>
 				</control>
 				<control type="button" id="611">
