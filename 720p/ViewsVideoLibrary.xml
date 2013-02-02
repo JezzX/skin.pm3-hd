@@ -75,7 +75,7 @@
 				<width>550</width>
 				<height>120</height>
 				<aspectratio aligny="bottom">keep</aspectratio>
-				<texture background="true">$INFO[ListItem.Icon]</texture>
+				<texture background="true">$VAR[BannerThumb]</texture>
 				<fadetime>IconCrossfadeTime</fadetime>
 			</control>
 			<control type="image">
@@ -84,7 +84,7 @@
 				<width>550</width>
 				<height>120</height>
 				<aspectratio aligny="top">keep</aspectratio>
-				<texture background="true" flipy="true" diffuse="diffuse_mirror2.png">$INFO[ListItem.Icon]</texture>
+				<texture background="true" flipy="true" diffuse="diffuse_mirror2.png">$VAR[BannerThumb]</texture>
 				<fadetime>IconCrossfadeTime</fadetime>
 			</control>
 			<control type="label">
@@ -192,7 +192,7 @@
 			<ondown>61</ondown>
 			<usecontrolcoords>true</usecontrolcoords>
 			<control type="fixedlist" id="57">
-				<visible>!Container.Content(Episodes) + !Container.Content(MusicVideos) + !Container.Content(TVShows) + !Container.Content(Addons)</visible>
+				<visible>!Container.Content(Episodes) + !Container.Content(MusicVideos) + !Container.Content(Addons)</visible>
 				<posx>-60</posx>
 				<posy>0</posy>
 				<width>1090</width>
@@ -217,7 +217,7 @@
 						<aspectratio>stretch</aspectratio>
 						<bordertexture border="5">button-nofocus.png</bordertexture>
 						<bordersize>5</bordersize>
-						<texture background="true">$INFO[ListItem.Icon]</texture>
+						<texture background="true">$VAR[PosterThumb]</texture>
 					</control>
 					<control type="image">
 						<posx>2</posx>
@@ -227,7 +227,7 @@
 						<aspectratio>stretch</aspectratio>
 						<bordertexture border="5" flipy="true" diffuse="diffuse_mirror2.png">button-nofocus.png</bordertexture>
 						<bordersize>5</bordersize>
-						<texture background="true" flipy="true" diffuse="diffuse_mirror2.png">$INFO[ListItem.Icon]</texture>
+						<texture background="true" flipy="true" diffuse="diffuse_mirror2.png">$VAR[PosterThumb]</texture>
 					</control>
 					<control type="image">
 						<posx>180</posx>
@@ -247,7 +247,7 @@
 						<aspectratio>stretch</aspectratio>
 						<bordertexture border="5">folder-focus.png</bordertexture>
 						<bordersize>5</bordersize>
-						<texture background="true">$INFO[ListItem.Icon]</texture>
+						<texture background="true">$VAR[PosterThumb]</texture>
 						<animation reversible="false" effect="zoom" start="2,0,214,310" end="-8,-10,234,330" time="200">focus</animation>
 						<animation reversible="false" effect="zoom" end="2,0,214,310" start="-8,-10,234,330" time="200">unfocus</animation>
 					</control>
@@ -259,7 +259,7 @@
 						<aspectratio>stretch</aspectratio>
 						<bordertexture border="5" flipy="true" diffuse="diffuse_mirror2.png">folder-focus.png</bordertexture>
 						<bordersize>5</bordersize>
-						<texture background="true" flipy="true" diffuse="diffuse_mirror2.png">$INFO[ListItem.Icon]</texture>
+						<texture background="true" flipy="true" diffuse="diffuse_mirror2.png">$VAR[PosterThumb]</texture>
 						<animation reversible="false" effect="zoom" start="2,310,214,310" end="-8,320,234,330" time="200">focus</animation>
 						<animation reversible="false" effect="zoom" end="2,310,214,310" start="-8,320,234,330" time="200">unfocus</animation>
 					</control>
@@ -397,11 +397,10 @@
 				<width>230</width>
 				<height>320</height>
 				<aspectratio align="right" aligny="bottom">keep</aspectratio>
-				<texture background="true">$INFO[Listitem.thumb]</texture>
+				<texture background="true">$VAR[PosterThumb]</texture>
 				<fadetime>IconCrossfadeTime</fadetime>
 				<bordertexture border="16">poster-shadow.png</bordertexture>
 				<bordersize>16</bordersize>
-				<visible>!IsEmpty(Listitem.thumb)</visible>
 			</control>
 			<control type="image">
 				<posx>220</posx>
@@ -479,7 +478,7 @@
 				<width>230</width>
 				<height>320</height>
 				<aspectratio align="right" aligny="bottom">keep</aspectratio>
-				<texture background="true">$INFO[Listitem.thumb]</texture>
+				<texture background="true">$VAR[PosterThumb]</texture>
 				<fadetime>IconCrossfadeTime</fadetime>
 				<bordertexture border="16">poster-shadow.png</bordertexture>
 				<bordersize>16</bordersize>
@@ -542,11 +541,10 @@
 				<width>255</width>
 				<height>320</height>
 				<aspectratio align="right" aligny="bottom">keep</aspectratio>
-				<texture background="true">$INFO[Listitem.thumb]</texture>
+				<texture background="true">$INFO[Listitem.Icon]</texture>
 				<fadetime>IconCrossfadeTime</fadetime>
 				<bordertexture border="16">poster-shadow.png</bordertexture>
 				<bordersize>16</bordersize>
-				<visible>!IsEmpty(Listitem.thumb)</visible>
 			</control>
 			<control type="image">
 				<posx>220</posx>
@@ -713,7 +711,7 @@
 					<width>270</width>
 					<height>360</height>
 					<aspectratio align="center" aligny="bottom">keep</aspectratio>
-					<texture background="true">$INFO[ListItem.Icon]</texture>
+					<texture background="true">$VAR[PosterThumb]</texture>
 					<fadetime>IconCrossfadeTime</fadetime>
 				</control>
 				<control type="image">
@@ -722,7 +720,7 @@
 					<width>270</width>
 					<height>360</height>
 					<aspectratio align="center" aligny="top">keep</aspectratio>
-					<texture background="true" flipy="true" diffuse="diffuse_mirror2.png">$INFO[ListItem.Icon]</texture>
+					<texture background="true" flipy="true" diffuse="diffuse_mirror2.png">$VAR[PosterThumb]</texture>
 					<fadetime>IconCrossfadeTime</fadetime>
 				</control>
 				<control type="image">

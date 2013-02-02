@@ -18,7 +18,7 @@
 					<posy>4</posy>
 					<width>40</width>
 					<height>22</height>
-					<texture background="true">$INFO[ListItem.Icon]</texture>
+					<texture background="true">$VAR[PosterThumb]</texture>
 				</control>
 				<control type="label">
 					<posx>50</posx>
@@ -82,7 +82,7 @@
 					<posy>4</posy>
 					<width>40</width>
 					<height>22</height>
-					<texture background="true">$INFO[ListItem.Icon]</texture>
+					<texture background="true">$VAR[PosterThumb]</texture>
 				</control>
 				<control type="label">
 					<posx>50</posx>
@@ -248,7 +248,7 @@
 				<height>510</height>
 				<aspectratio>keep</aspectratio>
 				<fadetime>IconCrossfadeTime</fadetime>
-				<texture background="true">$INFO[ListItem.Icon]</texture>
+				<texture background="true">$VAR[PosterThumb]</texture>
 			</control>
 			<control type="image">
 				<posx>340</posx>
@@ -1057,7 +1057,6 @@
 	</include>
 	<include name="VideoThumbnailView">
 		<control type="panel" id="53">
-			<visible>!Container.Content(TVShows)</visible>
 			<posx>300</posx>
 			<posy>130</posy>
 			<width>950</width>
@@ -1070,7 +1069,7 @@
 			<pagecontrol>60</pagecontrol>
 			<scrolltime>200</scrolltime>
 			<preloaditems>2</preloaditems>
-			<itemlayout condition="!Container.Content(Movies) + !Container.Content(Seasons)" height="255" width="316">
+			<itemlayout condition="!Container.Content(TVShows) + !Container.Content(Movies) + !Container.Content(Seasons)" height="255" width="316">
 				<control type="image">
 					<posx>1</posx>
 					<posy>1</posy>
@@ -1106,7 +1105,7 @@
 					<texture>$INFO[ListItem.Overlay]</texture>
 				</control>
 			</itemlayout>
-			<focusedlayout condition="!Container.Content(Movies) + !Container.Content(Seasons)" height="255" width="316">
+			<focusedlayout condition="!Container.Content(TVShows) + !Container.Content(Movies) + !Container.Content(Seasons)" height="255" width="316">
 				<control type="image">
 					<posx>1</posx>
 					<posy>1</posy>
@@ -1142,7 +1141,7 @@
 					<texture>$INFO[ListItem.Overlay]</texture>
 				</control>
 			</focusedlayout>
-			<itemlayout condition="Container.Content(Movies) | Container.Content(Seasons)" height="255" width="158">
+			<itemlayout condition="Container.Content(TVShows) | Container.Content(Movies) | Container.Content(Seasons)" height="255" width="158">
 				<control type="image">
 					<posx>1</posx>
 					<posy>1</posy>
@@ -1157,7 +1156,7 @@
 					<width>146</width>
 					<height>220</height>
 					<aspectratio>keep</aspectratio>
-					<texture background="true">$INFO[Listitem.Icon]</texture>
+					<texture background="true">$VAR[PosterThumb]</texture>
 				</control>
 				<control type="label">
 					<posx>79</posx>
@@ -1180,7 +1179,7 @@
 					<texture>$INFO[ListItem.Overlay]</texture>
 				</control>
 			</itemlayout>
-			<focusedlayout  condition="Container.Content(Movies) | Container.Content(Seasons)" height="255" width="158">
+			<focusedlayout  condition="Container.Content(TVShows) | Container.Content(Movies) | Container.Content(Seasons)" height="255" width="158">
 				<control type="image">
 					<posx>1</posx>
 					<posy>1</posy>
@@ -1195,7 +1194,7 @@
 					<width>146</width>
 					<height>220</height>
 					<aspectratio>keep</aspectratio>
-					<texture background="true">$INFO[Listitem.Icon]</texture>
+					<texture background="true">$VAR[PosterThumb]</texture>
 				</control>
 				<control type="label">
 					<posx>79</posx>
@@ -1248,7 +1247,7 @@
 					<posy>6</posy>
 					<width>463</width>
 					<height>90</height>
-					<texture background="true">$INFO[Listitem.Icon]</texture>
+					<texture background="true">$VAR[BannerThumb]</texture>
 				</control>
 				<control type="label">
 					<posx>237</posx>
@@ -1284,7 +1283,7 @@
 					<posy>6</posy>
 					<width>463</width>
 					<height>90</height>
-					<texture background="true">$INFO[Listitem.Icon]</texture>
+					<texture background="true">$VAR[BannerThumb]</texture>
 				</control>
 				<control type="image">
 					<posx>438</posx>
@@ -1320,7 +1319,7 @@
 					<posy>6</posy>
 					<width>463</width>
 					<height>90</height>
-					<texture background="true">$INFO[Listitem.Icon]</texture>
+					<texture background="true">$VAR[BannerThumb]</texture>
 				</control>
 				<control type="image">
 					<posx>438</posx>
@@ -1344,7 +1343,7 @@
 					<posy>6</posy>
 					<width>463</width>
 					<height>90</height>
-					<texture background="true">$INFO[Listitem.Icon]</texture>
+					<texture background="true">$VAR[BannerThumb]</texture>
 				</control>
 				<control type="image">
 					<posx>438</posx>

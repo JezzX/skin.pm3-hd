@@ -133,7 +133,7 @@
 				<posy>0</posy>
 				<width>130</width>
 				<height>130</height>
-				<texture>$INFO[MusicPlayer.Cover]</texture>
+				<texture>$INFO[Player.Art(thumb)]</texture>
 			</control>
 			<control type="label">
 				<description>Artist label</description>
@@ -204,7 +204,7 @@
 				<width>150</width>
 				<height>130</height>
 				<aspectratio align="left">keep</aspectratio>
-				<texture>$INFO[VideoPlayer.cover]</texture>
+				<texture>$INFO[Player.Art(thumb)]</texture>
 			</control>
 			<control type="label">
 				<description>Director label</description>

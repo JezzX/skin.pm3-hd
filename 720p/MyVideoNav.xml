@@ -246,7 +246,7 @@
 			<width>640</width>
 			<height>105</height>
 			<aspectratio align="right">keep</aspectratio>
-			<texture background="true" diffuse="Wide_Icon_Diffuse.png">$INFO[Container.TVshowThumb]</texture>
+			<texture background="true" diffuse="Wide_Icon_Diffuse.png">ListItem.Art(tvshow.banner)</texture>
 			<visible>Container.Content(Seasons) | Container.Content(Episodes)</visible>
 			<include>Window_OpenClose_Animation</include>
 			<fadetime>IconCrossfadeTime</fadetime>
@@ -257,7 +257,7 @@
 			<width>640</width>
 			<height>105</height>
 			<aspectratio align="right">keep</aspectratio>
-			<texture background="true" diffuse="Wide_Icon_Diffuse.png">$INFO[Listitem.Thumb]</texture>
+			<texture background="true" diffuse="Wide_Icon_Diffuse.png">$VAR[BannerThumb]</texture>
 			<visible>Container.Content(TVShows) + Control.IsVisible(56)</visible>
 			<include>Window_OpenClose_Animation</include>
 			<fadetime>IconCrossfadeTime</fadetime>

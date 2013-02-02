@@ -40,7 +40,7 @@
 				<posy>5</posy>
 				<width>175</width>
 				<height>160</height>
-				<info>VideoPlayer.cover</info>
+				<texture>$INFO[Player.Art(thumb)]</texture>
 				<aspectratio align="right">keep</aspectratio>
 			</control>
 			<control type="label">
@@ -151,7 +151,7 @@
 				<posy>5</posy>
 				<width>200</width>
 				<height>300</height>
-				<info>VideoPlayer.cover</info>
+				<texture>$INFO[Player.Art(thumb)]</texture>
 				<aspectratio align="right">keep</aspectratio>
 			</control>
 			<control type="group">
@@ -369,7 +369,7 @@
 				<posy>145</posy>
 				<width>300</width>
 				<height>160</height>
-				<info>VideoPlayer.cover</info>
+				<texture>$INFO[Player.Art(thumb)]</texture>
 				<aspectratio align="right">keep</aspectratio>
 			</control>
 			<control type="group">
@@ -607,7 +607,7 @@
 				<posy>5</posy>
 				<width>175</width>
 				<height>160</height>
-				<info>VideoPlayer.cover</info>
+				<texture>$INFO[Player.Art(thumb)]</texture>
 				<aspectratio align="right">keep</aspectratio>
 			</control>
 			<control type="label">
@@ -770,7 +770,7 @@
 					<posy>5</posy>
 					<width>175</width>
 					<height>160</height>
-					<info>VideoPlayer.cover</info>
+					<texture>$INFO[Player.Art(thumb)]</texture>
 					<aspectratio align="right">keep</aspectratio>
 				</control>
 				<control type="label">

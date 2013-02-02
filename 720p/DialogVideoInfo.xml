@@ -61,7 +61,7 @@
 				<posy>100</posy>
 				<width>240</width>
 				<height>350</height>
-				<texture>$INFO[Listitem.Icon]</texture>
+				<texture>$VAR[PosterThumb]</texture>
 				<aspectratio>keep</aspectratio>
 				<bordertexture border="5">folder-focus.png</bordertexture>
 				<bordersize>5</bordersize>
@@ -216,7 +216,7 @@
 				<posy>100</posy>
 				<width>1200</width>
 				<height>150</height>
-				<texture>$INFO[Listitem.Icon]</texture>
+				<texture>$VAR[BannerThumb]</texture>
 				<aspectratio aligny="bottom">keep</aspectratio>
 			</control>
 			<control type="image">
@@ -225,7 +225,7 @@
 				<posy>250</posy>
 				<width>1200</width>
 				<height>150</height>
-				<texture flipy ="true" diffuse="diffuse_mirror2.png">$INFO[Listitem.Icon]</texture>
+				<texture flipy ="true" diffuse="diffuse_mirror2.png">$VAR[BannerThumb]</texture>
 				<aspectratio aligny="top">keep</aspectratio>
 			</control>
 			<control type="list" id="49">
