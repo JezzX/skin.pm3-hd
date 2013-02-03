@@ -1,4 +1,4 @@
-<window type="dialog" id="143">
+<window type="dialog">
 	<animation effect="fade" time="200">WindowClose</animation>
 	<include>dialogeffect</include>
 	<coordinates>

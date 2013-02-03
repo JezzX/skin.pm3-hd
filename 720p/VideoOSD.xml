@@ -1,4 +1,4 @@
-<window type="dialog" id="2901">
+<window type="dialog">
 	<defaultcontrol>213</defaultcontrol>
 	<include>dialogeffect</include>
 	<coordinates>

@@ -1,4 +1,4 @@
-<window id="115">
+<window>
 	<defaultcontrol>1</defaultcontrol>
 	<visible>Player.Seeking | Player.DisplayAfterSeek | Player.Paused | Player.Forwarding | Player.Rewinding</visible>
 	<include>dialogeffect</include>
