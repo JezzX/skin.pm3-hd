@@ -571,6 +571,13 @@
 					</control>
 				</focusedlayout>
 				<content>
+					<item id="8">
+						<label>31400</label>
+						<onclick>ActivateWindow(TV)</onclick>
+						<icon>special://skin/backgrounds/tv.jpg</icon>
+						<thumb>$INFO[Skin.String(Home_Custom_Back_TV_Folder)]</thumb>
+						<visible>System.GetBool(pvrmanager.enabled)</visible>
+					</item>
 					<item id="1">
 						<label>3</label>
 						<onclick>ActivateWindow(Videos)</onclick>
@@ -586,13 +593,6 @@
 						<thumb>$INFO[Skin.String(Home_Custom_Back_Video_Folder)]</thumb>
 						<visible>Skin.HasSetting(homepageVideoButtonAlwaysFilemode)</visible>
 						<visible>!Skin.HasSetting(homepageHideVideoButton)</visible>
-					</item>
-					<item id="8">
-						<label>31400</label>
-						<onclick>ActivateWindow(TV)</onclick>
-						<icon>special://skin/backgrounds/tv.jpg</icon>
-						<thumb>$INFO[Skin.String(Home_Custom_Back_TV_Folder)]</thumb>
-						<visible>System.GetBool(pvrmanager.enabled)</visible>
 					</item>
 					<item id="9">
 						<label>20342</label>
