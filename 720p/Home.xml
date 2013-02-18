@@ -412,7 +412,7 @@
 				<posy>5</posy>
 				<width>35</width>
 				<height>25</height>
-				<texture>PVR-Recording.png</texture>
+				<texture>PVR-IsRecording.png</texture>
 			</control>
 			<control type="label">
 				<description>Recording label</description>
