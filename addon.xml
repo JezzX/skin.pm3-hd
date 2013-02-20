@@ -9,11 +9,11 @@
   </requires>
   <extension
     point="xbmc.gui.skin"
-    defaultresolution="720p"
-    defaultresolutionwide="720p"
     defaultthemename="textures.xbt"
-    effectslowdown="1.0"
-    debugging="false"/>
+    debugging="false"
+    effectslowdown="1.0">
+    <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+  </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="de">Project Mayhem III High Definition skin by Jezz_X</summary>
     <summary lang="el">Το κέλυφος Project Mayhem III High Definition από τον Jezz_X</summary>

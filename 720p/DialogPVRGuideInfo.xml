@@ -194,7 +194,7 @@
 			<visible>!IsEmpty(ListItem.PlotOutline)</visible>
 		</control>
 		<control type="textbox">
-			<description>Textbox when scrollbar is visible & subtitle is hidden</description>
+			<description>Textbox when scrollbar is visible and subtitle is hidden</description>
 			<posx>70</posx>
 			<posy>310</posy>
 			<width>660</width>

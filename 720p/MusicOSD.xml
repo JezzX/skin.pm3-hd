@@ -224,10 +224,10 @@
 				<height>62</height>
 				<texturefocus>osd_button_presetsFO.png</texturefocus>
 				<texturenofocus>-</texturenofocus>
-				<usealttexture>Window.IsActive(122)</usealttexture>
+				<usealttexture>Window.IsActive(VisualisationPresetList)</usealttexture>
 				<alttexturefocus>osd_button_presetsSELNF.png</alttexturefocus>
 				<alttexturenofocus>-</alttexturenofocus>
-				<onclick>XBMC.ActivateWindow(122)</onclick>
+				<onclick>XBMC.ActivateWindow(VisualisationPresetList)</onclick>
 				<label>-</label>
 				<font>-</font>
 				<onleft>211</onleft>

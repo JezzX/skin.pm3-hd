@@ -199,7 +199,7 @@
 								<aligny>center</aligny>
 								<textcolor>grey2</textcolor>
 								<selectedcolor>green</selectedcolor>
-								<label>Timer</label>
+								<label>$LOCALIZE[19040]</label>
 								<visible>ListItem.HasTimer</visible>
 							</control>
 						</itemlayout>
@@ -292,7 +292,7 @@
 								<aligny>center</aligny>
 								<textcolor>white</textcolor>
 								<selectedcolor>green</selectedcolor>
-								<label>Timer</label>
+								<label>$LOCALIZE[19040]</label>
 								<visible>ListItem.HasTimer</visible>
 							</control>
 							<control type="textbox">
@@ -518,7 +518,7 @@
 								<aligny>center</aligny>
 								<textcolor>grey2</textcolor>
 								<selectedcolor>green</selectedcolor>
-								<label>Timer</label>
+								<label>$LOCALIZE[19040]</label>
 								<visible>ListItem.HasTimer</visible>
 							</control>
 						</itemlayout>
@@ -630,7 +630,7 @@
 								<aligny>center</aligny>
 								<textcolor>white</textcolor>
 								<selectedcolor>green</selectedcolor>
-								<label>Timer</label>
+								<label>$LOCALIZE[19040]</label>
 								<visible>ListItem.HasTimer</visible>
 							</control>
 							<control type="textbox">
@@ -2059,7 +2059,7 @@
 							<aligny>center</aligny>
 							<textcolor>grey2</textcolor>
 							<selectedcolor>green</selectedcolor>
-							<label>Timer</label>
+							<label>$LOCALIZE[19040]</label>
 							<visible>ListItem.HasTimer</visible>
 						</control>
 					</itemlayout>
@@ -2155,7 +2155,7 @@
 							<aligny>center</aligny>
 							<textcolor>white</textcolor>
 							<selectedcolor>green</selectedcolor>
-							<label>Timer</label>
+							<label>$LOCALIZE[19040]</label>
 							<visible>ListItem.HasTimer</visible>
 						</control>
 					</focusedlayout>
