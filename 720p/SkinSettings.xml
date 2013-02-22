@@ -544,6 +544,14 @@
 							</control>
 						</focusedlayout>
 						<content>
+							<item id="8">
+								<label>31400</label>
+								<label2>Home_Custom_Back_TV_Folder</label2>
+								<onclick>noop</onclick>
+								<icon>special://skin/backgrounds/tv.jpg</icon>
+								<thumb>$INFO[Skin.String(Home_Custom_Back_TV_Folder)]</thumb>
+								<visible>System.GetBool(pvrmanager.enabled)</visible>
+							</item>
 							<item id="1">
 								<label>3</label>
 								<label2>Home_Custom_Back_Video_Folder</label2>
@@ -551,13 +559,6 @@
 								<icon>special://skin/backgrounds/videos.jpg</icon>
 								<thumb>$INFO[Skin.String(Home_Custom_Back_Video_Folder)]</thumb>
 								<visible>!Skin.HasSetting(homepageHideVideoButton)</visible>
-							</item>
-							<item id="8">
-								<label>31400</label>
-								<onclick>noop</onclick>
-								<icon>special://skin/backgrounds/tv.jpg</icon>
-								<thumb>$INFO[Skin.String(Home_Custom_Back_TV_Folder)]</thumb>
-								<visible>System.GetBool(pvrmanager.enabled)</visible>
 							</item>
 							<item id="9">
 								<label>20342</label>
