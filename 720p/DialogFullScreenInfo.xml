@@ -22,7 +22,7 @@
 				<height>170</height>
 				<texture>black-back.png</texture>
 			</control>
-			<control type="label" id="1">
+			<control type="label">
 				<description>System Time Label</description>
 				<posx>1250</posx>
 				<posy>10</posy>
@@ -252,7 +252,7 @@
 					<font>font12</font>
 					<textcolor>white</textcolor>
 				</control>
-				<control type="label" id="1">
+				<control type="label">
 					<description>System Time Label</description>
 					<posx>1250</posx>
 					<posy>10</posy>
@@ -470,7 +470,7 @@
 					<font>font12</font>
 					<textcolor>white</textcolor>
 				</control>
-				<control type="label" id="1">
+				<control type="label">
 					<description>System Time Label</description>
 					<posx>1250</posx>
 					<posy>10</posy>
@@ -589,7 +589,7 @@
 				<height>170</height>
 				<texture>black-back.png</texture>
 			</control>
-			<control type="label" id="1">
+			<control type="label">
 				<description>System Time Label</description>
 				<posx>1250</posx>
 				<posy>10</posy>
@@ -752,7 +752,7 @@
 						<ondown>2</ondown>
 					</control>
 				</control>
-				<control type="label" id="1">
+				<control type="label">
 					<description>System Time Label</description>
 					<posx>1250</posx>
 					<posy>10</posy>

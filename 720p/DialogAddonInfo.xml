@@ -224,8 +224,8 @@
 						<font>-</font>
 						<onleft>61</onleft>
 						<onright>9000</onright>
-						<ondown>-</ondown>
-						<onup>-</onup>
+						<ondown>noop</ondown>
+						<onup>noop</onup>
 						<textcolor>white</textcolor>
 						<showonepage>true</showonepage>
 					</control>
@@ -320,8 +320,8 @@
 						<font>-</font>
 						<onleft>9000</onleft>
 						<onright>60</onright>
-						<ondown>-</ondown>
-						<onup>-</onup>
+						<ondown>noop</ondown>
+						<onup>noop</onup>
 						<textcolor>white</textcolor>
 						<showonepage>true</showonepage>
 					</control>
