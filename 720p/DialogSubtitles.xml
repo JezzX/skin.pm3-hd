@@ -1,0 +1,233 @@
+<window>
+	<coordinates>
+		<system>1</system>
+		<posx>240</posx>
+		<posy>100</posy>
+	</coordinates>
+	<controls>
+			<control type="image">
+				<description>background image</description>
+				<posx>0</posx>
+				<posy>0</posy>
+				<width>800</width>
+				<height>600</height>
+				<texture border="40">DialogBack.png</texture>
+			</control>
+			<control type="image">
+				<description>background image</description>
+				<posx>0</posx>
+				<posy>0</posy>
+				<width>800</width>
+				<height>600</height>
+				<texture border="40">DialogFront.png</texture>
+			</control>
+			<control type="button">
+				<description>Close Window button</description>
+				<posx>730</posx>
+				<posy>35</posy>
+				<include>WindowCloseButtonCommons</include>
+			</control> 
+			<control type="group">
+				<control type="label">
+					<description>Video label</description>
+					<left>40</left>
+					<posy>80</posy>
+					<width>760</width>
+					<height>30</height>
+					<font>font12</font>
+					<label>$INFO[Player.Filename]</label>
+					<align>left</align>
+					<aligny>center</aligny>
+					<textcolor>grey</textcolor>
+					<shadowcolor>FF000000</shadowcolor>
+				</control>
+				<control type="image">
+					<posx>20</posx>
+					<posy>110</posy>
+					<width>760</width>
+					<height>2</height>
+					<texture>separator.png</texture>
+				</control>
+				<control type="image" id="110">
+					<description>Service Logo</description>
+					<posx>15</posx>
+					<posy>40</posy>
+					<width>250</width>
+					<height>40</height>
+					<aspectratio>keep</aspectratio>
+				</control>
+				<control type="label" id="140">
+					<description>textarea</description>
+					<posx>0</posx>
+					<posy>112</posy>
+					<width>800</width>
+					<height>30</height>
+					<font>font12</font>
+					<textcolor>FFFFFFFF</textcolor>
+					<align>center</align>
+					<aligny>center</aligny>
+					<wrapmultiline>true</wrapmultiline>
+				</control>
+				<control type="image">
+					<posx>20</posx>
+					<posy>142</posy>
+					<width>760</width>
+					<height>2</height>
+					<texture>separator.png</texture>
+				</control>
+			</control>
+			<!-- ** Required ** Do not change <id>or<type>-->
+			<control type="group">
+				<control type="list" id="120">
+					<posx>40</posx>
+					<posy>150</posy>
+					<width>730</width>
+					<height>400</height>
+					<onposx>121</onposx>
+					<onright>150</onright>
+					<onup>120</onup>
+					<ondown>120</ondown>
+					<viewtype label="535">list</viewtype>
+					<pagecontrol>121</pagecontrol>
+					<scrolltime>200</scrolltime>
+					<itemlayout width="730" height="30">
+						<control type="image">
+							<posx>0</posx>
+							<posy>0</posy>
+							<width>710</width>
+							<height>30</height>
+							<texture>button-nofocus.png</texture>
+						</control>
+						<control type="image">
+							<posx>5</posx>
+							<posy>9</posy>
+							<width>18</width>
+							<height>12</height>
+							<texture>xbmc_subtitles/flags/$INFO[ListItem.Thumb].gif</texture>
+						</control>
+						<control type="label">
+							<posx>25</posx>
+							<posy>0</posy>
+							<width>90</width>
+							<height>30</height>
+							<font>font10</font>
+							<aligny>center</aligny>
+							<textcolor>FFFFFFFF</textcolor>
+							<selectedcolor>FF0084FF</selectedcolor>
+							<align>posx</align>
+							<info>ListItem.Label</info>
+						</control>
+						<control type="image">
+							<posx>120</posx>
+							<width>20</width>
+							<texture>volumeicon.png</texture>
+							<aspectratio>keep</aspectratio>
+							<aligny>center</aligny>
+							<visible>ListItem.property(hearing_imp)</visible>
+						</control>
+						<control type="image">
+							<posx>140</posx>
+							<width>60</width>
+							<aligny>center</aligny>
+							<texture>xbmc_subtitles/icon_sync.png</texture>
+							<aspectratio>keep</aspectratio>
+							<visible>ListItem.property(sync)</visible>
+						</control>
+						<control type="label">
+							<posx>205</posx>
+							<posy>0</posy>
+							<width>375</width>
+							<height>30</height>
+							<font>font10</font>
+							<aligny>center</aligny>
+							<textcolor>FFFFFFFF</textcolor>
+							<selectedcolor>FF0084FF</selectedcolor>
+							<align>left</align>
+							<info>ListItem.Label2</info>
+						</control>
+						<control type="image">
+							<posx>580</posx>
+							<posy>0</posy>
+							<width>120</width>
+							<aligny>center</aligny>
+							<aspectratio>keep</aspectratio>
+							<texture>xbmc_subtitles/ratings/$INFO[ListItem.ActualIcon].png</texture>
+						</control>
+					</itemlayout>
+					<focusedlayout width="730" height="30">
+						<control type="image">
+							<posx>0</posx>
+							<posy>0</posy>
+							<width>710</width>
+							<height>30</height>
+							<texture>button-nofocus.png</texture>
+						</control>
+						<control type="image">
+							<posx>0</posx>
+							<posy>0</posy>
+							<width>710</width>
+							<height>30</height>
+							<texture>button-focus.png</texture>
+							<visible>Control.HasFocus(120)</visible>
+						</control>
+						<control type="image">
+							<posx>5</posx>
+							<posy>9</posy>
+							<width>18</width>
+							<height>12</height>
+							<texture>xbmc_subtitles/flags/$INFO[ListItem.Thumb].gif</texture>
+						</control>
+						<control type="label">
+							<posx>25</posx>
+							<posy>0</posy>
+							<width>90</width>
+							<height>30</height>
+							<font>font10</font>
+							<aligny>center</aligny>
+							<textcolor>FFFFFFFF</textcolor>
+							<selectedcolor>FF0084FF</selectedcolor>
+							<align>posx</align>
+							<info>ListItem.Label</info>
+						</control>
+						<control type="image">
+							<posx>120</posx>
+							<width>20</width>
+							<texture>volumeicon.png</texture>
+							<aspectratio>keep</aspectratio>
+							<aligny>center</aligny>
+							<visible>ListItem.property(hearing_imp)</visible>
+						</control>
+						<control type="image">
+							<posx>140</posx>
+							<posy>0</posy>
+							<width>60</width>
+							<aligny>center</aligny>
+							<texture>xbmc_subtitles/icon_sync.png</texture>
+							<aspectratio>keep</aspectratio>
+							<visible>ListItem.property(sync)</visible>
+						</control>
+						<control type="label">
+							<posx>205</posx>
+							<posy>0</posy>
+							<width>375</width>
+							<height>30</height>
+							<font>font10</font>
+							<aligny>center</aligny>
+							<textcolor>FFFFFFFF</textcolor>
+							<selectedcolor>FF0084FF</selectedcolor>
+							<align>left</align>
+							<info>ListItem.Label2</info>
+						</control>
+						<control type="image">
+							<posx>580</posx>
+							<posy>0</posy>
+							<width>120</width>
+							<aligny>center</aligny>
+							<aspectratio>keep</aspectratio>
+							<texture>xbmc_subtitles/ratings/$INFO[ListItem.ActualIcon].png</texture>
+						</control>
+					</focusedlayout>
+				</control>
+			</control>
+	</controls>
+</window>
