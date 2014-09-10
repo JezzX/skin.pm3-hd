@@ -151,7 +151,7 @@
 							<width>120</width>
 							<aligny>center</aligny>
 							<aspectratio>keep</aspectratio>
-							<texture>xbmc_subtitles/ratings/$INFO[ListItem.ActualIcon].png</texture>
+							<texture>rating$INFO[ListItem.ActualIcon].png</texture>
 						</control>
 					</itemlayout>
 					<focusedlayout width="730" height="30">
@@ -224,7 +224,7 @@
 							<width>120</width>
 							<aligny>center</aligny>
 							<aspectratio>keep</aspectratio>
-							<texture>xbmc_subtitles/ratings/$INFO[ListItem.ActualIcon].png</texture>
+							<texture>rating$INFO[ListItem.ActualIcon].png</texture>
 						</control>
 					</focusedlayout>
 				</control>
