@@ -18,18 +18,18 @@
 		</control>
 		<control type="grouplist" id="996">
 			<description>grouplist for context buttons</description>
-			<left>43</left>
+			<left>36</left>
 			<top>25</top>
-			<width>320</width>
+			<width>335</width>
 			<height max="670">auto</height>
 			<itemgap>2</itemgap>
 			<texture border="0">DialogFront.png</texture>
 		</control>
 		<control type="button" id="1000">
 			<description>button template</description>
-			<left>43</left>
+			<left>40</left>
 			<top>40</top>
-			<width>310</width>
+			<width>325</width>
 			<height>35</height>
 			<font>font12</font>
 			<align>center</align>
