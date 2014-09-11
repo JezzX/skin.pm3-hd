@@ -138,7 +138,7 @@
 						<control type="label">
 							<posx>120</posx>
 							<posy>0</posy>
-							<width>415</width>
+							<width>400</width>
 							<height>30</height>
 							<font>font10</font>
 							<aligny>center</aligny>
@@ -151,7 +151,7 @@
 						<control type="label">
 							<posx>120</posx>
 							<posy>0</posy>
-							<width>355</width>
+							<width>340</width>
 							<height>30</height>
 							<font>font10</font>
 							<aligny>center</aligny>
@@ -162,17 +162,17 @@
 							<visible>ListItem.property(sync)</visible>
 						</control>
 						<control type="image">
-							<posx>480</posx>
-							<width>60</width>
+							<posx>465</posx>
+							<width>57</width>
 							<aligny>center</aligny>
 							<texture>xbmc_subtitles/icon_sync.png</texture>
 							<aspectratio>keep</aspectratio>
 							<visible>ListItem.property(sync)</visible>
 						</control>
 						<control type="image">
-							<posx>540</posx>
-							<width>25</width>
-							<texture>volumeicon.png</texture>
+							<posx>525</posx>
+							<width>38</width>
+							<texture>xbmc_subtitles/icon_cc.png</texture>
 							<aspectratio>keep</aspectratio>
 							<aligny>center</aligny>
 							<visible>ListItem.property(hearing_imp)</visible>
@@ -224,7 +224,7 @@
 						<control type="label">
 							<posx>120</posx>
 							<posy>0</posy>
-							<width>415</width>
+							<width>400</width>
 							<height>30</height>
 							<font>font10</font>
 							<aligny>center</aligny>
@@ -237,7 +237,7 @@
 						<control type="label">
 							<posx>120</posx>
 							<posy>0</posy>
-							<width>355</width>
+							<width>340</width>
 							<height>30</height>
 							<font>font10</font>
 							<aligny>center</aligny>
@@ -248,18 +248,17 @@
 							<visible>ListItem.property(sync)</visible>
 						</control>
 						<control type="image">
-							<posx>480</posx>
-							<posy>0</posy>
-							<width>60</width>
+							<posx>465</posx>
+							<width>57</width>
 							<aligny>center</aligny>
 							<texture>xbmc_subtitles/icon_sync.png</texture>
 							<aspectratio>keep</aspectratio>
 							<visible>ListItem.property(sync)</visible>
 						</control>
 						<control type="image">
-							<posx>540</posx>
-							<width>25</width>
-							<texture>volumeicon.png</texture>
+							<posx>525</posx>
+							<width>38</width>
+							<texture>xbmc_subtitles/icon_cc.png</texture>
 							<aspectratio>keep</aspectratio>
 							<aligny>center</aligny>
 							<visible>ListItem.property(hearing_imp)</visible>
