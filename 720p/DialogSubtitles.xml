@@ -87,7 +87,7 @@
 				<control type="image">
 					<posx>40</posx>
 					<posy>142</posy>
-					<width>770</width>
+					<width>720</width>
 					<height>2</height>
 					<texture>separator.png</texture>
 				</control>
