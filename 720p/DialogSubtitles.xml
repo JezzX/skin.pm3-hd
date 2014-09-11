@@ -1,16 +1,20 @@
 <window>
+	<allowoverlay>no</allowoverlay>
+	<include>dialogeffect</include>
 	<coordinates>
 		<system>1</system>
 		<posx>240</posx>
-		<posy>100</posy>
+		<posy>45</posy>
 	</coordinates>
 	<controls>
+		<control type="group">
 			<control type="image">
 				<description>background image</description>
 				<posx>0</posx>
 				<posy>0</posy>
 				<width>800</width>
 				<height>600</height>
+				<colordiffuse>DDFFFFFF</colordiffuse>
 				<texture border="40">DialogBack.png</texture>
 			</control>
 			<control type="image">
@@ -21,10 +25,22 @@
 				<height>600</height>
 				<texture border="40">DialogFront.png</texture>
 			</control>
+			<control type="label" id="2">
+				<description>heading label</description>
+				<posx>40</posx>
+				<posy>40</posy>
+				<width>720</width>
+				<height>30</height>
+				<align>center</align>
+				<aligny>center</aligny>
+				<font>font18</font>
+				<label>$LOCALIZE[31250]</label>
+				<textcolor>white</textcolor>
+			</control>
 			<control type="button">
 				<description>Close Window button</description>
 				<posx>730</posx>
-				<posy>35</posy>
+				<posy>40</posy>
 				<include>WindowCloseButtonCommons</include>
 			</control> 
 			<control type="group">
@@ -42,9 +58,9 @@
 					<shadowcolor>FF000000</shadowcolor>
 				</control>
 				<control type="image">
-					<posx>20</posx>
+					<posx>40</posx>
 					<posy>110</posy>
-					<width>760</width>
+					<width>720</width>
 					<height>2</height>
 					<texture>separator.png</texture>
 				</control>
@@ -69,19 +85,20 @@
 					<wrapmultiline>true</wrapmultiline>
 				</control>
 				<control type="image">
-					<posx>20</posx>
+					<posx>40</posx>
 					<posy>142</posy>
-					<width>760</width>
+					<width>770</width>
 					<height>2</height>
 					<texture>separator.png</texture>
 				</control>
 			</control>
+		</control>
 			<!-- ** Required ** Do not change <id>or<type>-->
 			<control type="group">
 				<control type="list" id="120">
 					<posx>40</posx>
 					<posy>150</posy>
-					<width>730</width>
+					<width>700</width>
 					<height>400</height>
 					<onposx>121</onposx>
 					<onright>150</onright>
@@ -90,11 +107,12 @@
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>121</pagecontrol>
 					<scrolltime>200</scrolltime>
-					<itemlayout width="730" height="30">
+					<animation effect="slide" start="0,0" end="10,0" time="0" condition="!Control.IsVisible(121)">conditional</animation>
+					<itemlayout width="700" height="30">
 						<control type="image">
 							<posx>0</posx>
 							<posy>0</posy>
-							<width>710</width>
+							<width>700</width>
 							<height>30</height>
 							<texture>button-nofocus.png</texture>
 						</control>
@@ -117,26 +135,10 @@
 							<align>posx</align>
 							<info>ListItem.Label</info>
 						</control>
-						<control type="image">
-							<posx>120</posx>
-							<width>20</width>
-							<texture>volumeicon.png</texture>
-							<aspectratio>keep</aspectratio>
-							<aligny>center</aligny>
-							<visible>ListItem.property(hearing_imp)</visible>
-						</control>
-						<control type="image">
-							<posx>140</posx>
-							<width>60</width>
-							<aligny>center</aligny>
-							<texture>xbmc_subtitles/icon_sync.png</texture>
-							<aspectratio>keep</aspectratio>
-							<visible>ListItem.property(sync)</visible>
-						</control>
 						<control type="label">
-							<posx>205</posx>
+							<posx>120</posx>
 							<posy>0</posy>
-							<width>375</width>
+							<width>415</width>
 							<height>30</height>
 							<font>font10</font>
 							<aligny>center</aligny>
@@ -144,9 +146,39 @@
 							<selectedcolor>FF0084FF</selectedcolor>
 							<align>left</align>
 							<info>ListItem.Label2</info>
+							<visible>!ListItem.property(sync)</visible>
+						</control>
+						<control type="label">
+							<posx>120</posx>
+							<posy>0</posy>
+							<width>355</width>
+							<height>30</height>
+							<font>font10</font>
+							<aligny>center</aligny>
+							<textcolor>FFFFFFFF</textcolor>
+							<selectedcolor>FF0084FF</selectedcolor>
+							<align>left</align>
+							<info>ListItem.Label2</info>
+							<visible>ListItem.property(sync)</visible>
 						</control>
 						<control type="image">
-							<posx>580</posx>
+							<posx>480</posx>
+							<width>60</width>
+							<aligny>center</aligny>
+							<texture>xbmc_subtitles/icon_sync.png</texture>
+							<aspectratio>keep</aspectratio>
+							<visible>ListItem.property(sync)</visible>
+						</control>
+						<control type="image">
+							<posx>540</posx>
+							<width>25</width>
+							<texture>volumeicon.png</texture>
+							<aspectratio>keep</aspectratio>
+							<aligny>center</aligny>
+							<visible>ListItem.property(hearing_imp)</visible>
+						</control>
+						<control type="image">
+							<posx>565</posx>
 							<posy>0</posy>
 							<width>120</width>
 							<aligny>center</aligny>
@@ -154,18 +186,18 @@
 							<texture>rating$INFO[ListItem.ActualIcon].png</texture>
 						</control>
 					</itemlayout>
-					<focusedlayout width="730" height="30">
+					<focusedlayout width="700" height="30">
 						<control type="image">
 							<posx>0</posx>
 							<posy>0</posy>
-							<width>710</width>
+							<width>700</width>
 							<height>30</height>
 							<texture>button-nofocus.png</texture>
 						</control>
 						<control type="image">
 							<posx>0</posx>
 							<posy>0</posy>
-							<width>710</width>
+							<width>700</width>
 							<height>30</height>
 							<texture>button-focus.png</texture>
 							<visible>Control.HasFocus(120)</visible>
@@ -189,27 +221,10 @@
 							<align>posx</align>
 							<info>ListItem.Label</info>
 						</control>
-						<control type="image">
-							<posx>120</posx>
-							<width>20</width>
-							<texture>volumeicon.png</texture>
-							<aspectratio>keep</aspectratio>
-							<aligny>center</aligny>
-							<visible>ListItem.property(hearing_imp)</visible>
-						</control>
-						<control type="image">
-							<posx>140</posx>
-							<posy>0</posy>
-							<width>60</width>
-							<aligny>center</aligny>
-							<texture>xbmc_subtitles/icon_sync.png</texture>
-							<aspectratio>keep</aspectratio>
-							<visible>ListItem.property(sync)</visible>
-						</control>
 						<control type="label">
-							<posx>205</posx>
+							<posx>120</posx>
 							<posy>0</posy>
-							<width>375</width>
+							<width>415</width>
 							<height>30</height>
 							<font>font10</font>
 							<aligny>center</aligny>
@@ -217,9 +232,40 @@
 							<selectedcolor>FF0084FF</selectedcolor>
 							<align>left</align>
 							<info>ListItem.Label2</info>
+							<visible>!ListItem.property(sync)</visible>
+						</control>
+						<control type="label">
+							<posx>120</posx>
+							<posy>0</posy>
+							<width>355</width>
+							<height>30</height>
+							<font>font10</font>
+							<aligny>center</aligny>
+							<textcolor>FFFFFFFF</textcolor>
+							<selectedcolor>FF0084FF</selectedcolor>
+							<align>left</align>
+							<info>ListItem.Label2</info>
+							<visible>ListItem.property(sync)</visible>
 						</control>
 						<control type="image">
-							<posx>580</posx>
+							<posx>480</posx>
+							<posy>0</posy>
+							<width>60</width>
+							<aligny>center</aligny>
+							<texture>xbmc_subtitles/icon_sync.png</texture>
+							<aspectratio>keep</aspectratio>
+							<visible>ListItem.property(sync)</visible>
+						</control>
+						<control type="image">
+							<posx>540</posx>
+							<width>25</width>
+							<texture>volumeicon.png</texture>
+							<aspectratio>keep</aspectratio>
+							<aligny>center</aligny>
+							<visible>ListItem.property(hearing_imp)</visible>
+						</control>
+						<control type="image">
+							<posx>565</posx>
 							<posy>0</posy>
 							<width>120</width>
 							<aligny>center</aligny>
@@ -227,6 +273,21 @@
 							<texture>rating$INFO[ListItem.ActualIcon].png</texture>
 						</control>
 					</focusedlayout>
+				</control>
+				<control type="scrollbar" id="121">
+					<posx>735</posx>
+					<posy>150</posy>
+					<width>20</width>
+					<height>400</height>
+					<texturesliderbackground border="2,2,2,2">scrollbar_bar_back2.png</texturesliderbackground>
+					<texturesliderbar border="2,16,2,16">scrollbar_bar.png</texturesliderbar>
+					<texturesliderbarfocus border="2,16,2,16">scrollbar_bar_focus.png</texturesliderbarfocus>
+					<textureslidernib>scrollbar_nib.png</textureslidernib>
+					<textureslidernibfocus>scrollbar_nib.png</textureslidernibfocus>
+					<onleft>120</onleft>
+					<onright>5</onright>
+					<showonepage>false</showonepage>
+					<orientation>vertical</orientation>
 				</control>
 			</control>
 	</controls>
