@@ -28,7 +28,7 @@
 						<texture>$INFO[Listitem.Icon]</texture>
 					</control>
 					<control type="label">
-						<posx>95</posx>
+						<posx>0</posx>
 						<posy>220</posy>
 						<width>180</width>
 						<height>25</height>
@@ -57,7 +57,7 @@
 						<texture>$INFO[Listitem.Icon]</texture>
 					</control>
 					<control type="label">
-						<posx>95</posx>
+						<posx>0</posx>
 						<posy>220</posy>
 						<width>180</width>
 						<height>25</height>
