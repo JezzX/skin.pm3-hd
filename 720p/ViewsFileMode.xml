@@ -16,12 +16,12 @@
 				<control type="image">
 					<posx>5</posx>
 					<posy>4</posy>
-					<width>40</width>
+					<width>22</width>
 					<height>22</height>
 					<texture background="true">$VAR[PosterThumb]</texture>
 				</control>
 				<control type="label">
-					<posx>50</posx>
+					<posx>30</posx>
 					<posy>0</posy>
 					<width>890</width>
 					<height>30</height>
@@ -33,7 +33,7 @@
 					<label>$INFO[ListItem.Label]</label>
 				</control>
 				<control type="label">
-					<posx>940</posx>
+					<posx>920</posx>
 					<posy>0</posy>
 					<width>870</width>
 					<height>30</height>
@@ -46,7 +46,7 @@
 					<visible>!Window.IsVisible(Videos)</visible>
 				</control>
 				<control type="label">
-					<posx>920</posx>
+					<posx>900</posx>
 					<posy>0</posy>
 					<width>820</width>
 					<height>30</height>
@@ -59,7 +59,7 @@
 					<visible>Window.IsVisible(Videos)</visible>
 				</control>
 				<control type="image">
-					<posx>920</posx>
+					<posx>900</posx>
 					<posy>4</posy>
 					<width>30</width>
 					<height>22</height>
@@ -80,12 +80,12 @@
 				<control type="image">
 					<posx>5</posx>
 					<posy>4</posy>
-					<width>40</width>
+					<width>22</width>
 					<height>22</height>
 					<texture background="true">$VAR[PosterThumb]</texture>
 				</control>
 				<control type="label">
-					<posx>50</posx>
+					<posx>30</posx>
 					<posy>0</posy>
 					<width>890</width>
 					<height>30</height>
@@ -97,7 +97,7 @@
 					<label>$INFO[ListItem.Label]</label>
 				</control>
 				<control type="label">
-					<posx>940</posx>
+					<posx>920</posx>
 					<posy>0</posy>
 					<width>870</width>
 					<height>30</height>
@@ -110,7 +110,7 @@
 					<visible>!Window.IsVisible(Videos)</visible>
 				</control>
 				<control type="label">
-					<posx>920</posx>
+					<posx>900</posx>
 					<posy>0</posy>
 					<width>820</width>
 					<height>30</height>
@@ -123,7 +123,7 @@
 					<visible>Window.IsVisible(Videos)</visible>
 				</control>
 				<control type="image">
-					<posx>920</posx>
+					<posx>900</posx>
 					<posy>4</posy>
 					<width>30</width>
 					<height>22</height>
@@ -996,7 +996,7 @@
 					<texture background="true">$INFO[Listitem.Icon]</texture>
 				</control>
 				<control type="label">
-					<posx>94</posx>
+					<posx>6</posx>
 					<posy>141</posy>
 					<width>178</width>
 					<height>25</height>
@@ -1033,7 +1033,7 @@
 					<texture background="true">$INFO[Listitem.Icon]</texture>
 				</control>
 				<control type="label">
-					<posx>94</posx>
+					<posx>6</posx>
 					<posy>141</posy>
 					<width>178</width>
 					<height>25</height>
@@ -1085,7 +1085,7 @@
 					<texture background="true">$INFO[Listitem.Icon]</texture>
 				</control>
 				<control type="label">
-					<posx>158</posx>
+					<posx>4</posx>
 					<posy>225</posy>
 					<width>300</width>
 					<height>25</height>
@@ -1121,7 +1121,7 @@
 					<texture background="true">$INFO[Listitem.Icon]</texture>
 				</control>
 				<control type="label">
-					<posx>158</posx>
+					<posx>4</posx>
 					<posy>225</posy>
 					<width>300</width>
 					<height>25</height>
@@ -1159,7 +1159,7 @@
 					<texture background="true">$VAR[PosterThumb]</texture>
 				</control>
 				<control type="label">
-					<posx>79</posx>
+					<posx>5</posx>
 					<posy>226</posy>
 					<width>147</width>
 					<height>25</height>
@@ -1197,7 +1197,7 @@
 					<texture background="true">$VAR[PosterThumb]</texture>
 				</control>
 				<control type="label">
-					<posx>79</posx>
+					<posx>5</posx>
 					<posy>226</posy>
 					<width>147</width>
 					<height>25</height>
