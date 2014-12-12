@@ -1,5 +1,5 @@
 <window>
-	<defaultcontrol>3</defaultcontrol>
+	<defaultcontrol>20</defaultcontrol>
 	<coordinates>
 		<system>1</system>
 		<posx>240</posx>
@@ -48,7 +48,7 @@
 			<height>2</height>
 			<texture>separator.png</texture>
 		</control>
-		<control type="spincontrolex" id="3">
+		<control type="spincontrolex" id="20">
 			<description>Content Picker</description>
 			<posx>40</posx>
 			<posy>85</posy>
@@ -62,8 +62,8 @@
 			<reverse>yes</reverse>
 			<onup>28</onup>
 			<ondown>4</ondown>
-			<onleft>3</onleft>
-			<onright>3</onright>
+			<onleft>20</onleft>
+			<onright>20</onright>
 		</control>
 		<control type="image">
 			<description>scraper image</description>
@@ -75,12 +75,12 @@
 			<info>ListItem.Icon</info>
 			<visible>Control.IsVisible(4)</visible>
 		</control>
-		<control type="list" id="4">
+		<control type="list" id="21">
 			<posx>40</posx>
 			<posy>125</posy>
 			<width>400</width>
 			<height>200</height>
-			<onup>3</onup>
+			<onup>20</onup>
 			<onleft>5</onleft>
 			<onright>5</onright>
 			<ondown>5</ondown>
@@ -166,7 +166,7 @@
 			<width>720</width>
 			<height>200</height>
 			<itemgap>5</itemgap>
-			<onup>4</onup>
+			<onup>21</onup>
 			<ondown>28</ondown>
 			<onleft>5</onleft>
 			<onright>5</onright>
@@ -201,10 +201,10 @@
 				<texturenofocus border="3">button-nofocus.png</texturenofocus>
 				<texturefocus border="3">button-focus2.png</texturefocus>
 				<label>186</label>
-				<onleft>6</onleft>
+				<onleft>22</onleft>
 				<onright>29</onright>
 				<onup>30</onup>
-				<ondown>3</ondown>
+				<ondown>20</ondown>
 			</control>
 			<control type="button" id="29">
 				<description>Cancel Button</description>
@@ -218,11 +218,11 @@
 				<texturefocus border="3">button-focus2.png</texturefocus>
 				<label>222</label>
 				<onleft>28</onleft>
-				<onright>6</onright>
+				<onright>22</onright>
 				<onup>30</onup>
-				<ondown>3</ondown>
+				<ondown>20</ondown>
 			</control>
-			<control type="button" id="6">
+			<control type="button" id="22">
 				<description>Settings Button</description>
 				<posx>90</posx>
 				<posy>575</posy>
@@ -236,7 +236,7 @@
 				<onleft>29</onleft>
 				<onright>28</onright>
 				<onup>30</onup>
-				<ondown>3</ondown>
+				<ondown>20</ondown>
 			</control>
 		</control>
 	</controls>

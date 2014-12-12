@@ -1250,7 +1250,7 @@
 					<texture background="true">$VAR[BannerThumb]</texture>
 				</control>
 				<control type="label">
-					<posx>237</posx>
+					<posx>5</posx>
 					<posy>100</posy>
 					<width>473</width>
 					<height>25</height>
@@ -1294,9 +1294,9 @@
 					<texture>$INFO[ListItem.Overlay]</texture>
 				</control>
 				<control type="label">
-					<posx>237</posx>
+					<posx>5</posx>
 					<posy>100</posy>
-					<width>538</width>
+					<width>473</width>
 					<height>25</height>
 					<font>font11</font>
 					<textcolor>white</textcolor>
