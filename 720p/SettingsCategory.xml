@@ -32,8 +32,8 @@
 				<itemgap>2</itemgap>
 				<onleft>5</onleft>
 				<onright>5</onright>
-				<onup>3</onup>
-				<ondown>3</ondown>
+				<onup>20</onup>
+				<ondown>20</ondown>
 			</control>
 		</control>
 		<control type="button" id="10">
@@ -97,6 +97,25 @@
 			<font>-</font>
 			<visible>false</visible>
 		</control>
+		<control type="button" id="20">
+				<description>Setting level button</description>
+				<left>0</left>
+				<top>629</top>
+				<height>35</height>
+				<width>280</width>
+				<font>font11</font>
+				<align>center</align>
+				<textcolor>grey2</textcolor>
+				<focusedcolor>white</focusedcolor>
+				<label>10037</label>	
+				<onclick>SettingsLevelChange</onclick>
+				<texturefocus border="3">button-focus2.png</texturefocus>
+			<texturenofocus border="3">button-nofocus.png</texturenofocus> 
+				<onleft>5</onleft>
+				<onright>5</onright>
+				<onup>3</onup>
+				<ondown>3</ondown>
+			</control>
 		<control type="label">
 			<include>WindowTitleCommons</include>
 			<label>$LOCALIZE[9] - $LOCALIZE[5] - $INFO[Control.GetLabel(2)]</label>

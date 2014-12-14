@@ -193,7 +193,7 @@
 			<label>1022</label>
 			<textcolor>grey2</textcolor>
 		</control>
-		<control type="button" id="12">
+		<control type="edit" id="12">
 			<description>Name Button</description>
 			<posx>40</posx>
 			<posy>370</posy>

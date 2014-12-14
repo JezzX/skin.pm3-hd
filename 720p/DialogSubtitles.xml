@@ -60,6 +60,7 @@
 				<aligny>center</aligny>
 				<font>font12</font>
 				<textcolor>white</textcolor>
+				<label>31357</label>
 			</control>
 			<control type="button" id="160">
 					<description>Manual search button</description>
