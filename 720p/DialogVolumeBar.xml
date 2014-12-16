@@ -31,7 +31,8 @@
 				<control type="label">
 					<description>Volume Label</description>
 					<posx>50</posx>
-					<posy>22</posy>
+					<top>0</top>
+					<height>45</height>
 					<label>$INFO[Player.Volume]</label>
 					<font>font12</font>
 					<align>left</align>
