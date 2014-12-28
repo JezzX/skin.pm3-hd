@@ -61,7 +61,7 @@
 			<aligny>center</aligny>
 			<reverse>yes</reverse>
 			<onup>28</onup>
-			<ondown>4</ondown>
+			<ondown>21</ondown>
 			<onleft>20</onleft>
 			<onright>20</onright>
 		</control>
@@ -73,7 +73,7 @@
 			<height>200</height>
 			<aspectratio>keep</aspectratio>
 			<info>ListItem.Icon</info>
-			<visible>Control.IsVisible(4)</visible>
+			<visible>Control.IsVisible(21)</visible>
 		</control>
 		<control type="list" id="21">
 			<posx>40</posx>
@@ -203,7 +203,7 @@
 				<label>186</label>
 				<onleft>22</onleft>
 				<onright>29</onright>
-				<onup>30</onup>
+				<onup>5</onup>
 				<ondown>20</ondown>
 			</control>
 			<control type="button" id="29">
@@ -219,7 +219,7 @@
 				<label>222</label>
 				<onleft>28</onleft>
 				<onright>22</onright>
-				<onup>30</onup>
+				<onup>5</onup>
 				<ondown>20</ondown>
 			</control>
 			<control type="button" id="22">
@@ -235,7 +235,7 @@
 				<label>5</label>
 				<onleft>29</onleft>
 				<onright>28</onright>
-				<onup>30</onup>
+				<onup>5</onup>
 				<ondown>20</ondown>
 			</control>
 		</control>
