@@ -573,7 +573,7 @@
 				<content>
 					<item id="8">
 						<label>31400</label>
-						<onclick>ActivateWindow(TV)</onclick>
+						<onclick>ActivateWindow(TVChannels)</onclick>
 						<icon>special://skin/backgrounds/tv.jpg</icon>
 						<thumb>$INFO[Skin.String(Home_Custom_Back_TV_Folder)]</thumb>
 						<visible>System.GetBool(pvrmanager.enabled)</visible>

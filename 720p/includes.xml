@@ -6,6 +6,7 @@
 	<include file="ViewsFileMode.xml" />
 	<include file="Views3dCoverView.xml" />
 	<include file="ViewsAddonBrowser.xml" />
+	<include file="ViewsPVRGuide.xml" />
 
 	<constant name="FanartCrossfadeTime">400</constant>
 	<constant name="IconCrossfadeTime">400</constant>
