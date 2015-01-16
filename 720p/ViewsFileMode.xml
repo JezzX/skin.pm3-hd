@@ -33,7 +33,7 @@
 					<label>$INFO[ListItem.Label]</label>
 				</control>
 				<control type="label">
-					<posx>920</posx>
+					<posx>60</posx>
 					<posy>0</posy>
 					<width>870</width>
 					<height>30</height>
@@ -46,7 +46,7 @@
 					<visible>!Window.IsVisible(Videos)</visible>
 				</control>
 				<control type="label">
-					<posx>900</posx>
+					<posx>110</posx>
 					<posy>0</posy>
 					<width>820</width>
 					<height>30</height>
@@ -97,7 +97,7 @@
 					<label>$INFO[ListItem.Label]</label>
 				</control>
 				<control type="label">
-					<posx>920</posx>
+					<posx>60</posx>
 					<posy>0</posy>
 					<width>870</width>
 					<height>30</height>
@@ -110,7 +110,7 @@
 					<visible>!Window.IsVisible(Videos)</visible>
 				</control>
 				<control type="label">
-					<posx>900</posx>
+					<posx>110</posx>
 					<posy>0</posy>
 					<width>820</width>
 					<height>30</height>
