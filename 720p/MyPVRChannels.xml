@@ -8,85 +8,12 @@
 		<control type="group">
 			<include>Window_OpenClose_Right_Panel_Animation</include>
 			<include>ContentPanel</include>
-			
 			<include>ChannelListView</include> <!-- view id = 55 -->
 			<include>AllViewCommonPageControls</include>
 			<include>CommonFileCount</include>
 			<include>ScrollOffsetLabel</include>
 		</control>
-		<control type="group">
-			<include>Window_OpenClose_Left_Panel_Animation</include>
-			<include>CommonNowPlaying</include>
-			<control type="group" id="9000">
-				<posx>0</posx>
-				<posy>130</posy>
-				<control type="button" id="3">
-					<description>Sort by button</description>
-					<posx>0</posx>
-					<posy>0</posy>
-					<include>ButtonCommonValues</include>
-					<label>103</label>
-					<onleft>50</onleft>
-					<onright>4</onright>
-					<onup>2</onup>
-					<ondown>19</ondown>
-				</control>
-				<control type="togglebutton" id="4">
-					<description>Sort asc</description>
-					<posx>250</posx>
-					<posy>13</posy>
-					<label>-</label>
-					<onleft>3</onleft>
-					<onright>50</onright>
-					<onup>2</onup>
-					<ondown>19</ondown>
-				</control>
-				<control type="radiobutton" id="19">
-					<description>Filter</description>
-					<posx>0</posx>
-					<posy>45</posy>
-					<include>ButtonCommonValues</include>
-					<label>587</label>
-					<onleft>50</onleft>
-					<onright>50</onright>
-					<onup>3</onup>
-					<ondown>20</ondown>
-					<selected>Container.Filtered</selected>
-					<visible>!Container.CanFilterAdvanced</visible>
-				</control>
-				<control type="radiobutton" id="20">
-					<description>Advanced Filter</description>
-					<posx>0</posx>
-					<posy>45</posy>
-					<include>ButtonCommonValues</include>
-					<label>587</label>
-					<onclick>Filter</onclick>
-					<onleft>50</onleft>
-					<onright>50</onright>
-					<onup>19</onup>
-					<ondown>6</ondown>
-					<selected>Container.Filtered</selected>
-					<visible>Container.CanFilterAdvanced</visible>
-				</control>
-				<control type="button" id="610">
-					<description>Fake Button to fix Player Controls Navigation</description>
-					<onup>9</onup>
-					<ondown>603</ondown>
-					<visible>false</visible>
-				</control>
-				<control type="group">
-					<posx>0</posx>
-					<posy>90</posy>
-					<include>CommonNowPlaying_Controls</include>
-				</control>
-				<control type="button" id="611">
-					<description>Fake Button to fix Player Controls Navigation</description>
-					<onup>603</onup>
-					<ondown>2</ondown>
-					<visible>false</visible>
-				</control>
-			</control>
-		</control>
+		<include>PVRMenu</include>
 		<control type="image">
 			<posx>0</posx>
 			<posy>0</posy>

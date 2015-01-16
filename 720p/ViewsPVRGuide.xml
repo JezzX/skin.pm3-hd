@@ -41,7 +41,7 @@
 						<height>25</height>
 						<font>font13</font>
 						<textcolor>white</textcolor>
-						<selectedcolor>selected</selectedcolor>
+						<selectedcolor>green</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 						<label>$INFO[ListItem.Label]</label>
@@ -101,6 +101,15 @@
 				</itemlayout>
 				<focusedlayout height="60" width="390">
 					<control type="image">
+						<posx>0</posx>
+						<posy>0</posy>
+						<width>395</width>
+						<height>60</height>
+						<texture border="7">list-focus.png</texture>
+						<visible>Control.HasFocus(50)</visible>
+						<include>VisibleFadeEffect</include>
+					</control>
+					<control type="image">
 						<left>0</left>
 						<top>0</top>
 						<width>390</width>
@@ -137,7 +146,7 @@
 						<height>25</height>
 						<font>font13</font>
 						<textcolor>white</textcolor>
-						<selectedcolor>selected</selectedcolor>
+						<selectedcolor>green</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 						<label>$INFO[ListItem.Label]</label>
@@ -205,22 +214,13 @@
 			<description>TV Guide Timeline</description>
 			<visible>Control.IsVisible(10)</visible>
 			<include>VisibleFadeEffect</include>
-			<control type="image">
-				<description>separator image</description>
-				<left>80</left>
-				<top>101</top>
-				<width>1100</width>
-				<height>1</height>
-				<colordiffuse>88FFFFFF</colordiffuse>
-				<texture>separator2.png</texture>
-			</control>
 			<control type="epggrid" id="10">
 				<viewtype label="19032">list</viewtype>
 				<description>EPG Grid</description>
-				<left>80</left>
-				<top>71</top>
-				<width>1135</width>
-				<height>419</height>
+				<left>300</left>
+				<top>130</top>
+				<width>970</width>
+				<height>372</height>
 				<pagecontrol>10</pagecontrol>
 				<scrolltime>350</scrolltime>
 				<timeblocks>40</timeblocks>
@@ -238,8 +238,7 @@
 						<width>34</width>
 						<height>29</height>
 						<font>font12</font>
-						<aligny>center</aligny>
-						<selectedcolor>selected</selectedcolor>
+						<selectedcolor>green</selectedcolor>
 						<align>left</align>
 						<label>$INFO[ListItem.Label]</label>
 					</control>
@@ -255,9 +254,9 @@
 					</control>
 					<control type="label">
 						<left>5</left>
-						<top>5</top>
+						<top>0</top>
 						<width>40</width>
-						<height>35</height>
+						<height>48</height>
 						<font>font12</font>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -268,20 +267,20 @@
 					<control type="image">
 						<left>45</left>
 						<top>4</top>
-						<width>45</width>
-						<height>44</height>
+						<width>40</width>
+						<height>40</height>
 						<texture>$INFO[ListItem.Icon]</texture>
 						<aspectratio>keep</aspectratio>
 					</control>
 					<control type="label" id="1">
-						<left>94</left>
+						<left>95</left>
 						<top>0</top>
 						<width>160</width>
 						<height>48</height>
 						<font>special12</font>
-						<aligny>center</aligny>
-						<selectedcolor>selected</selectedcolor>
+						<selectedcolor>green</selectedcolor>
 						<align>left</align>
+						<aligny>center</aligny>
 						<label>$INFO[ListItem.ChannelName]</label>
 					</control>
 				</channellayout>
@@ -300,15 +299,15 @@
 						<top>0</top>
 						<width>270</width>
 						<height>48</height>
-						<texture border="2">MenuItemFO.png</texture>
+						<texture border="2">folder-focus.png</texture>
 						<visible>Control.HasFocus(10)</visible>
 						<include>VisibleFadeEffect</include>
 					</control>
 					<control type="label">
 						<left>5</left>
-						<top>5</top>
+						<top>0</top>
 						<width>40</width>
-						<height>35</height>
+						<height>48</height>
 						<font>font12</font>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -319,20 +318,20 @@
 					<control type="image">
 						<left>45</left>
 						<top>4</top>
-						<width>45</width>
-						<height>44</height>
+						<width>40</width>
+						<height>40</height>
 						<texture>$INFO[ListItem.Icon]</texture>
 						<aspectratio>keep</aspectratio>
 					</control>
 					<control type="label" id="1">
-						<left>94</left>
+						<left>95</left>
 						<top>0</top>
 						<width>160</width>
 						<height>48</height>
 						<font>special12</font>
-						<aligny>center</aligny>
-						<selectedcolor>selected</selectedcolor>
+						<selectedcolor>green</selectedcolor>
 						<align>left</align>
+						<aligny>center</aligny>
 						<label>$INFO[ListItem.ChannelName]</label>
 					</control>
 				</focusedchannellayout>
@@ -346,35 +345,48 @@
 						<texture border="3">epg-genres/$INFO[ListItem.Property(GenreType)].png</texture>
 					</control>
 					<control type="label" id="1">
-						<left>10</left>
-						<top>3</top>
-						<width>20</width>
-						<height>25</height>
+						<left>2</left>
+						<top>0</top>
+						<width>36</width>
+						<height>48</height>
 						<font>font12</font>
-						<aligny>center</aligny>
-						<selectedcolor>selected</selectedcolor>
+						<selectedcolor>green</selectedcolor>
 						<align>left</align>
+						<aligny>center</aligny>
 						<info>ListItem.Label</info>
+						<visible>!ListItem.HasRecording + !ListItem.IsRecording + !ListItem.HasTimer</visible>
 					</control>
-					<control type="image">
-						<left>6</left>
-						<top>28</top>
+					<control type="label" id="3">
+						<left>25</left>
+						<top>0</top>
+						<width>20</width>
+						<height>48</height>
+						<font>font12</font>
+						<selectedcolor>green</selectedcolor>
+						<align>left</align>
+						<aligny>center</aligny>
+						<info>ListItem.Label</info>
+						<visible>ListItem.HasRecording | ListItem.IsRecording | ListItem.HasTimer</visible>
+					</control>
+					<control type="image" id="701">
+						<left>5</left>
+						<top>16</top>
 						<width>24</width>
 						<height>16</height>
 						<texture>PVR-IsRecording.png</texture>
 						<visible>ListItem.IsRecording</visible>
 					</control>
-					<control type="image">
-						<left>6</left>
-						<top>28</top>
+					<control type="image" id="702">
+						<left>5</left>
+						<top>16</top>
 						<width>16</width>
 						<height>16</height>
 						<texture>PVR-HasTimer.png</texture>
 						<visible>ListItem.HasTimer + !ListItem.IsRecording</visible>
 					</control>
-					<control type="image">
-						<left>6</left>
-						<top>28</top>
+					<control type="image" id="703">
+						<left>5</left>
+						<top>16</top>
 						<width>16</width>
 						<height>16</height>
 						<texture>PVR-HasRecording.png</texture>
@@ -397,36 +409,49 @@
 						<aspectratio>stretch</aspectratio>
 						<texture border="3">epg-genres/$INFO[ListItem.Property(GenreType)].png</texture>
 					</control>
-					<control type="label" id="1">
-						<left>10</left>
-						<top>3</top>
-						<width>20</width>
-						<height>25</height>
+										<control type="label" id="1">
+						<left>2</left>
+						<top>0</top>
+						<width>36</width>
+						<height>48</height>
 						<font>font12</font>
-						<aligny>center</aligny>
-						<selectedcolor>selected</selectedcolor>
+						<selectedcolor>green</selectedcolor>
 						<align>left</align>
+						<aligny>center</aligny>
 						<info>ListItem.Label</info>
+						<visible>!ListItem.HasRecording + !ListItem.IsRecording + !ListItem.HasTimer</visible>
 					</control>
-					<control type="image">
-						<left>6</left>
-						<top>28</top>
+					<control type="label" id="3">
+						<left>25</left>
+						<top>0</top>
+						<width>20</width>
+						<height>48</height>
+						<font>font12</font>
+						<selectedcolor>green</selectedcolor>
+						<align>left</align>
+						<aligny>center</aligny>
+						<info>ListItem.Label</info>
+						<visible>ListItem.HasRecording | ListItem.IsRecording | ListItem.HasTimer</visible>
+					</control>
+					<control type="image" id="701">
+						<left>5</left>
+						<top>16</top>
 						<width>24</width>
 						<height>16</height>
 						<texture>PVR-IsRecording.png</texture>
 						<visible>ListItem.IsRecording</visible>
 					</control>
-					<control type="image">
-						<left>6</left>
-						<top>28</top>
+					<control type="image" id="702">
+						<left>5</left>
+						<top>16</top>
 						<width>16</width>
 						<height>16</height>
 						<texture>PVR-HasTimer.png</texture>
 						<visible>ListItem.HasTimer + !ListItem.IsRecording</visible>
 					</control>
-					<control type="image">
-						<left>6</left>
-						<top>28</top>
+					<control type="image" id="703">
+						<left>5</left>
+						<top>16</top>
 						<width>16</width>
 						<height>16</height>
 						<texture>PVR-HasRecording.png</texture>
@@ -434,9 +459,16 @@
 					</control>
 				</focusedlayout>
 			</control>
+			<control type="image">
+				<posx>300</posx>
+				<posy>503</posy>
+				<width>950</width>
+				<height>2</height>
+				<texture>separator.png</texture>
+			</control> 
 			<control type="group">
 				<visible>!IsEmpty(ListItem.Label)</visible>
-				<left>80</left>
+				<left>300</left>
 				<top>508</top>
 				<control type="image">
 					<left>62</left>
@@ -449,7 +481,7 @@
 				<control type="label">
 					<left>280</left>
 					<top>0</top>
-					<width>840</width>
+					<width>640</width>
 					<height>20</height>
 					<label>[B]$INFO[ListItem.Label][/B]</label>
 					<font>font13</font>
@@ -458,7 +490,7 @@
 				<control type="label">
 					<left>280</left>
 					<top>25</top>
-					<width>840</width>
+					<width>640</width>
 					<height>20</height>
 					<label>$INFO[ListItem.StartTime]$INFO[ListItem.EndTime, - ]$INFO[ListItem.Genre, • ]</label>
 					<font>font12</font>
@@ -468,8 +500,8 @@
 					<description>Plot value</description>
 					<left>280</left>
 					<top>55</top>
-					<width>840</width>
-					<height>65</height>
+					<width>640</width>
+					<height>75</height>
 					<font>font12</font>
 					<align>justify</align>
 					<textcolor>grey</textcolor>
@@ -595,7 +627,7 @@
 							<align>center</align>
 							<aligny>center</aligny>
 							<textcolor>grey2</textcolor>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>green</selectedcolor>
 							<info>ListItem.StartTime</info>
 						</control>
 						<control type="image">
@@ -615,7 +647,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<textcolor>grey2</textcolor>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>green</selectedcolor>
 							<info>ListItem.ChannelName</info>
 						</control>
 						<control type="label">
@@ -627,7 +659,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<textcolor>grey2</textcolor>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>green</selectedcolor>
 							<info>ListItem.Label</info>
 						</control>
 						<control type="image">
@@ -647,7 +679,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<textcolor>grey2</textcolor>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>green</selectedcolor>
 							<label>19043</label>
 							<visible>ListItem.IsRecording</visible>
 						</control>
@@ -668,7 +700,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<textcolor>grey2</textcolor>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>green</selectedcolor>
 							<label>31510</label>
 							<visible>ListItem.HasTimer</visible>
 						</control>
@@ -734,7 +766,7 @@
 							<align>center</align>
 							<aligny>center</aligny>
 							<textcolor>white</textcolor>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>green</selectedcolor>
 							<info>ListItem.StartTime</info>
 						</control>
 						<control type="image">
@@ -754,7 +786,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<textcolor>white</textcolor>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>green</selectedcolor>
 							<info>ListItem.ChannelName</info>
 						</control>
 						<control type="label">
@@ -766,7 +798,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<textcolor>white</textcolor>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>green</selectedcolor>
 							<info>ListItem.Label</info>
 						</control>
 						<control type="textbox">
@@ -799,7 +831,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<textcolor>grey2</textcolor>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>green</selectedcolor>
 							<label>19043</label>
 							<visible>ListItem.IsRecording</visible>
 						</control>
@@ -820,7 +852,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<textcolor>grey2</textcolor>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>green</selectedcolor>
 							<label>31510</label>
 							<visible>ListItem.HasTimer</visible>
 						</control>
@@ -974,7 +1006,7 @@
 							<align>center</align>
 							<aligny>center</aligny>
 							<textcolor>grey2</textcolor>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>green</selectedcolor>
 							<info>ListItem.StartTime</info>
 						</control>
 						<control type="image">
@@ -994,7 +1026,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<textcolor>grey2</textcolor>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>green</selectedcolor>
 							<info>ListItem.ChannelName</info>
 						</control>
 						<control type="label">
@@ -1006,7 +1038,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<textcolor>grey2</textcolor>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>green</selectedcolor>
 							<info>ListItem.Label</info>
 						</control>
 						<control type="image">
@@ -1026,7 +1058,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<textcolor>grey2</textcolor>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>green</selectedcolor>
 							<label>19043</label>
 							<visible>ListItem.IsRecording</visible>
 						</control>
@@ -1047,7 +1079,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<textcolor>grey2</textcolor>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>green</selectedcolor>
 							<label>31510</label>
 							<visible>ListItem.HasTimer</visible>
 						</control>
@@ -1113,7 +1145,7 @@
 							<align>center</align>
 							<aligny>center</aligny>
 							<textcolor>white</textcolor>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>green</selectedcolor>
 							<info>ListItem.StartTime</info>
 						</control>
 						<control type="image">
@@ -1133,7 +1165,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<textcolor>white</textcolor>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>green</selectedcolor>
 							<info>ListItem.ChannelName</info>
 						</control>
 						<control type="label">
@@ -1145,7 +1177,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<textcolor>white</textcolor>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>green</selectedcolor>
 							<info>ListItem.Label</info>
 						</control>
 						<control type="textbox">
@@ -1178,7 +1210,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<textcolor>grey2</textcolor>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>green</selectedcolor>
 							<label>19043</label>
 							<visible>ListItem.IsRecording</visible>
 						</control>
@@ -1199,7 +1231,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<textcolor>grey2</textcolor>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>green</selectedcolor>
 							<label>31510</label>
 							<visible>ListItem.HasTimer</visible>
 						</control>
@@ -1340,7 +1372,7 @@
 							<align>center</align>
 							<aligny>center</aligny>
 							<textcolor>grey2</textcolor>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>green</selectedcolor>
 							<info>ListItem.Date</info>
 						</control>
 						<control type="label">
@@ -1352,7 +1384,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<textcolor>grey2</textcolor>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>green</selectedcolor>
 							<info>ListItem.Label</info>
 						</control>
 						<control type="image">
@@ -1372,7 +1404,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<textcolor>grey2</textcolor>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>green</selectedcolor>
 							<label>19043</label>
 							<visible>ListItem.IsRecording</visible>
 						</control>
@@ -1393,7 +1425,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<textcolor>grey2</textcolor>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>green</selectedcolor>
 							<label>31510</label>
 							<visible>ListItem.HasTimer</visible>
 						</control>
@@ -1459,7 +1491,7 @@
 							<align>center</align>
 							<aligny>center</aligny>
 							<textcolor>white</textcolor>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>green</selectedcolor>
 							<info>ListItem.Date</info>
 						</control>
 						<control type="label">
@@ -1471,7 +1503,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<textcolor>white</textcolor>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>green</selectedcolor>
 							<info>ListItem.Label</info>
 						</control>
 						<control type="textbox">
@@ -1504,7 +1536,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<textcolor>grey2</textcolor>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>green</selectedcolor>
 							<label>19043</label>
 							<visible>ListItem.IsRecording</visible>
 						</control>
@@ -1525,7 +1557,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<textcolor>grey2</textcolor>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>green</selectedcolor>
 							<label>31510</label>
 							<visible>ListItem.HasTimer</visible>
 						</control>

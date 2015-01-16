@@ -203,17 +203,6 @@
 					<onup>16</onup>
 					<ondown>7</ondown>
 				</control>
-				<control type="radiobutton" id="7">
-					<description>Stack button</description>
-					<posx>0</posx>
-					<posy>315</posy>
-					<label>$LOCALIZE[346]</label>
-					<include>ButtonCommonValues</include>
-					<onleft>50</onleft>
-					<onright>50</onright>
-					<onup>17</onup>
-					<ondown>11</ondown>
-				</control>
 				<control type="radiobutton" id="11">
 					<description>Unlock Shares</description>
 					<posx>0</posx>
