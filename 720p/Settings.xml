@@ -25,6 +25,7 @@
 						<posy>5</posy>
 						<width>180</width>
 						<height>210</height>
+						<aspectratio>keep</aspectratio>
 						<texture>$INFO[Listitem.Icon]</texture>
 					</control>
 					<control type="label">
@@ -54,6 +55,7 @@
 						<posy>5</posy>
 						<width>180</width>
 						<height>210</height>
+						<aspectratio>keep</aspectratio>
 						<texture>$INFO[Listitem.Icon]</texture>
 					</control>
 					<control type="label">

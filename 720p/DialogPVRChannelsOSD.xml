@@ -138,6 +138,7 @@
 					<posy>4</posy>
 					<width>48</width>
 					<height>48</height>
+					<aspectratio>keep</aspectratio>
 					<texture>$INFO[ListItem.Icon]</texture>
 				</control>
 			</itemlayout>

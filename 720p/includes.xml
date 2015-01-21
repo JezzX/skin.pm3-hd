@@ -580,6 +580,20 @@
 			</control>
 		</control>
 	</include>
+	<include name="SmallButtonCommonValues">
+		<height>38</height>
+		<width>280</width>
+		<font>font11</font>
+		<textcolor>white</textcolor>
+		<focusedcolor>white</focusedcolor>
+		<shadowcolor>black</shadowcolor>
+		<align>left</align>
+		<aligny>center</aligny>
+		<textoffsetx>35</textoffsetx>
+		<texturefocus border="32,0,0,0">Button_Side_Focus.png</texturefocus>
+		<texturenofocus border="32,0,0,0">Button_Side_NoFocus.png</texturenofocus>
+		<pulseonselect>true</pulseonselect>
+	</include>
 	<include name="ButtonCommonValues">
 		<height>44</height>
 		<width>280</width>

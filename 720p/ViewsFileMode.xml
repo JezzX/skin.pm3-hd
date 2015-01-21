@@ -993,6 +993,7 @@
 					<posy>5</posy>
 					<width>178</width>
 					<height>135</height>
+					<aspectratio>keep</aspectratio>
 					<texture background="true">$INFO[Listitem.Icon]</texture>
 				</control>
 				<control type="label">
@@ -1030,6 +1031,7 @@
 					<posy>5</posy>
 					<width>178</width>
 					<height>135</height>
+					<aspectratio>keep</aspectratio>
 					<texture background="true">$INFO[Listitem.Icon]</texture>
 				</control>
 				<control type="label">
