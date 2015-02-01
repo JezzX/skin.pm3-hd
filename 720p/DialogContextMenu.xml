@@ -12,7 +12,7 @@
 			<left>0</left>
 			<top>0</top>
 			<width>400</width>
-			<colordiffuse>DDFFFFFF</colordiffuse>
+			<colordiffuse>EEFFFFFF</colordiffuse>
 			<bordertexture>DialogFront.png</bordertexture>
 			<texture border="0">DialogBack.png</texture>
 		</control>

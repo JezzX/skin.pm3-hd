@@ -3,40 +3,49 @@
 	<controls>
 		<!-- codec infos -->
 		<control type="image">
-			<description>media info background image</description>
-			<posx>0</posx>
-			<posy>30</posy>
-			<width>1280</width>
-			<height>130</height>
-			<texture>black-back.png</texture>
-		</control>
-		<control type="label" id="10">
-			<description>row 1 label</description>
-			<posx>50</posx>
-			<posy>40</posy>
-			<label>-</label>
-			<align>left</align>
-			<font>font11</font>
-			<include>VisibleFadeEffect</include>
-		</control>
-		<control type="label" id="11">
-			<description>row 2 label</description>
-			<posx>50</posx>
-			<posy>70</posy>
-			<label>-</label>
-			<align>left</align>
-			<font>font11</font>
-			<include>VisibleFadeEffect</include>
-		</control>
-		<control type="label" id="12">
-			<description>row 3 label</description>
-			<posx>50</posx>
-			<posy>100</posy>
-			<label>-</label>
-			<align>left</align>
-			<font>font11</font>
-			<include>VisibleFadeEffect</include>
-		</control>
+            <description>media info background image</description>
+            <posx>0</posx>
+            <posy>0</posy>
+            <width>1280</width>
+            <height>150</height>
+            <texture>black-back.png</texture>
+        </control>
+        <control type="label" id="10">
+            <description>row 1 label</description>
+            <left>50</left>
+            <top>10</top>
+            <width>1180</width>
+            <height>30</height>
+            <align>left</align>
+            <aligny>center</aligny>
+            <font>font11</font>
+            <label>-</label>
+            <include>VisibleFadeEffect</include>
+        </control>
+        <control type="label" id="11">
+            <description>row 2 label</description>
+            <left>50</left>
+            <top>55</top>
+            <width>1180</width>
+            <height>30</height>
+            <align>left</align>
+            <aligny>center</aligny>
+            <font>font11</font>
+            <label>-</label>
+            <include>VisibleFadeEffect</include>
+        </control>
+        <control type="label" id="12">
+            <description>row 3 label</description>
+            <left>50</left>
+            <top>100</top>
+            <width>1180</width>
+            <height>45</height>
+            <align>left</align>
+            <aligny>center</aligny>
+            <font>font11</font>
+            <label>-</label>
+            <include>VisibleFadeEffect</include>
+        </control>
 		<control type="selectbutton" id="503">
 			<posx>490</posx>
 			<posy>335</posy>
