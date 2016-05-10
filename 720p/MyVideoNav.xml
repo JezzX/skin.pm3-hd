@@ -201,28 +201,17 @@
 					<onleft>50</onleft>
 					<onright>50</onright>
 					<onup>16</onup>
-					<ondown>7</ondown>
-				</control>
-				<control type="radiobutton" id="7">
-					<description>Stack button</description>
-					<posx>0</posx>
-					<posy>315</posy>
-					<label>$LOCALIZE[346]</label>
-					<include>ButtonCommonValues</include>
-					<onleft>50</onleft>
-					<onright>50</onright>
-					<onup>17</onup>
 					<ondown>11</ondown>
 				</control>
 				<control type="radiobutton" id="11">
 					<description>Unlock Shares</description>
 					<posx>0</posx>
-					<posy>360</posy>
+					<posy>315</posy>
 					<include>ButtonCommonValues</include>
 					<label>20336</label>
 					<onleft>50</onleft>
 					<onright>50</onright>
-					<onup>7</onup>
+					<onup>17</onup>
 					<ondown>610</ondown>
 					<pulseonselect>no</pulseonselect>
 					<onclick>xbmc.mastermode</onclick>
@@ -237,7 +226,7 @@
 				</control>
 				<control type="group">
 					<posx>0</posx>
-					<posy>405</posy>
+					<posy>360</posy>
 					<animation effect="slide" start="0,0" end="0,-45" time="0" condition="!Control.IsVisible(11)">conditional</animation>
 					<include>CommonNowPlaying_Controls</include>
 				</control>

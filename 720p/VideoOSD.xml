@@ -103,7 +103,8 @@
 					<onright>206</onright>
 					<onup>206</onup>
 					<ondown>201</ondown>
-					<onclick>RunScript($INFO[Skin.String(SubtitleScript_Path)])</onclick>
+					<onclick>Dialog.Close(VideoOSD)</onclick>
+					<onclick>ActivateWindow(SubtitleSearch)</onclick>
 					<visible>!VideoPlayer.HasMenu + !Player.CanRecord + !Player.Recording + Skin.HasSetting(SubtitleScript_Enable)</visible>
 				</control>
 				<control type="button" id="210">
@@ -120,7 +121,8 @@
 					<onright>205</onright>
 					<onup>205</onup>
 					<ondown>200</ondown>
-					<onclick>RunScript($INFO[Skin.String(SubtitleScript_Path)])</onclick>
+					<onclick>Dialog.Close(VideoOSD)</onclick>
+					<onclick>ActivateWindow(SubtitleSearch)</onclick>
 					<visible>!VideoPlayer.HasMenu + !Player.CanRecord + !Player.Recording + Skin.HasSetting(SubtitleScript_Enable)</visible>
 				</control>
 				<control type="image">
